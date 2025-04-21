@@ -11,6 +11,7 @@ import Footer from "./static-sections/Footer/Footer.jsx"
 const App = () => {
   return (
     <>
+      <a href="#main" className="skip-link">Skip to main content</a>
       <Hero />
       <Skills />
       <Project />
