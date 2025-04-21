@@ -1,0 +1,56 @@
+{
+  "journey": [
+    {
+      "id": "1",
+      "name": "Diving into Tech",
+      "image": "/assets/Tech.webp",
+      "description": "Why and how I found my way into Tech and what it has really meant.",
+      "tags": [
+        "tech",
+        "personal development",
+        "junior",
+        "career"
+      ],
+      "readarticle": "https://medium.com/@jasminhedlund/diving-into-tech-a7260565ca6d"
+    },
+    {
+      "id": "2",
+      "name": "My first real project idea",
+      "image": "/assets/Project.webp",
+      "description": "One of the things I love most about stepping into tech is that you can go from an idea in your head to something real — something you build — just by learning and trying.",
+      "tags": [
+        "ai",
+        "projects",
+        "learning",
+        "daring"
+      ],
+      "readarticle": "https://medium.com/@jasminhedlund/my-first-real-project-idea-dailyhealth-72771545b8a9"
+    },
+    {
+      "id": "3",
+      "name": "Can you love code and still love other things? (Yes)",
+      "image": "/assets/Balance.webp",
+      "description": "Sometimes I wonder — does coding have to be your whole life to count as a passion? I don’t think so.",
+      "tags": [
+        "passion",
+        "code",
+        "tech",
+        "yoga"
+      ],
+      "readarticle": "https://medium.com/@jasminhedlund/can-you-love-code-and-still-love-other-things-yes-cb968a948938"
+    },
+    {
+      "id": "4",
+      "name": "Career Week just kicked off at Technigo — and with that, we’ve also started planning and building our portfolios",
+      "image": "/assets/Celebration.webp",
+      "description": "Two full weeks of React ahead. It’s exciting, intense, and honestly… quite logic! What’s been most interesting about this week is realizing how tough it can seem to break into the tech industry, especially as someone new.",
+      "tags": [
+        "carrer",
+        "internship",
+        "tech",
+        "future"
+      ],
+      "readarticle": "https://medium.com/@jasminhedlund/career-week-just-kicked-off-at-technigo-and-with-that-weve-also-started-planning-and-building-752c430ecb82"
+    }
+  ]
+}

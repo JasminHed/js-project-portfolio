@@ -1,28 +1,99 @@
 {
   "projects": [
     {
-      "name": "Business site",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
-      "tags": [
+      "id": "1",
+      "name": "Business site - Health by Jasmin",
+      "image": "/assets/Business.png",
+      "description": " A responsive & interactive business website for yoga and ayurveda. Own design.",
+      "languages": [
+        "HTML5",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "Flexbox",
+        "Grid",
+        "Responsive Design",
+        "Accessibility"
+      ],
+      "netlify": "https://healthbyjasmin.netlify.app/",
+      "github": "https://github.com/JasminHed/healthbyjasmin-project-business-site"
+    },
+    {
+      "id": "2",
+      "name": "Recipe App",
+      "image": "/assets/Recipe.png",
+      "description": "An interactive recipe application with dynamic filtering options and nutritional information. Followed design on Figma",
+      "languages": [
+        "HTML5",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "API",
+        "Local Storage",
+        "Search Functionality",
+        "Responsive Design"
+      ],
+      "netlify": "https://jrecipelibrary.netlify.app/",
+      "github": "https://github.com/JasminHed/js-project-recipe"
+    },
+    {
+      "id": "3",
+      "name": "Weather App",
+      "image": "assets/Weather.png",
+      "description": "An interactive weather application with dynamic sorting options on capitals and weather",
+      "languages": [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "Typescript"
+      ],
+      "features": [
+        "API"
+      ],
+      "netlify": "https://nordicweatherapp.netlify.app/",
+      "github": "https://github.com/JasminHed/newjs-project-weather-app"
+    },
+    {
+      "id": "4",
+      "name": "Accessibility Quiz",
+      "image": "/assets/Access.png",
+      "description": "An interactive educational quiz on accessibility. Followed design from Figma",
+      "languages": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "features": [
+        "Screen Reader",
+        "Compatibility",
+        "Keyboard Navigation",
+        "WCAG Compliance",
+        "High Contrast Options"
+      ],
+      "netlify": "https://accessquiz.netlify.app/",
+      "github": "https://github.com/JasminHed/project-accessibility"
     },
     {
-      "name": "Weather app",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "tags": [
+      "id": "5",
+      "name": "Daily Health",
+      "image": "/assets/DailyHealth.png",
+      "description": "An interactive application that is based on the user being interactive to get a daily health tip. Own project and design. Ongoing project.",
+      "languages": [
         "HTML5",
-        "CSS3",
-        "JavaScript",
-        "TypeScript",
-        "APIs"
+        "CSS",
+        "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "features": [
+        "Flexbox",
+        "Grid",
+        "Responsive Design",
+        "Accessibility",
+        "AI"
+      ],
+      "netlify": "https://dailyhealthjh.netlify.app/",
+      "github": "https://github.com/JasminHed/dailyhealth"
     }
   ]
 }

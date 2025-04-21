@@ -1,8 +1,31 @@
-export const App = () => {
+import React from "react"
+import "./index.css"
+import Hero from "./static sections/Hero/Hero.jsx"
+import Skills from "./static sections/Skills/Skills.jsx"
+import Project from "./sections/Projects/Projects.jsx"
+import Tech from "./static sections/Tech/Tech.jsx"
+import Journey from "./sections/Journey/Journey.jsx"
+import Footer from "./static sections/Footer/Footer.jsx"
+
+
+const App = () => {
   return (
     <>
-      <h1>Portfolio</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam.</p>
+      <Hero />
+      <Skills />
+      <Project />
+      <Tech />
+      <Journey />
+      <Footer />
+
     </>
+
   )
 }
+
+export default App
+
+
+
+
+

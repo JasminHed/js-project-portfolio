@@ -1,0 +1,19 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 128px 128px 64px 128px;
+  gap: 64px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+
+.hero-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}

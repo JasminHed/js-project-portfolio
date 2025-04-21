@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Prata&display=swap');
+
+:root {
+  color: #202020;
+  --font-heading: 'Prata', serif;
+  --font-body: 'Poppins', sans-serif;
+}
+
 body {
-  background: pink;
-  color: hotpink;
+  font-family: var(--font-body);
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
 }
