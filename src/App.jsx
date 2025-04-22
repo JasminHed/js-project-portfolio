@@ -1,5 +1,5 @@
 import React from "react"
-import "./index.css"
+import GlobalStyle from "./styles/GlobalStyle.jsx"
 import Hero from "./static-sections/Hero/Hero.jsx"
 import Skills from "./static-sections/Skills/Skills.jsx"
 import Project from "./sections/Projects/Projects.jsx"
@@ -11,6 +11,7 @@ import Footer from "./static-sections/Footer/Footer.jsx"
 const App = () => {
   return (
     <>
+      <GlobalStyle />
       <a href="#main" className="skip-link">Skip to main content</a>
       <Hero />
       <Skills />

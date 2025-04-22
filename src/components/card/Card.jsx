@@ -1,10 +1,19 @@
 import React from "react"
 import "./Card.css"
+import style from "styled-components" //new
+
+const CardWrapper = style.article`
+  width: 564px;
+  border: 2px solid blue;
+  
+
+
+`
 
 
 const Card = ({ type, data }) => {
   return (
-    <div>
+    <CardWrapper>
       <img src={data.image} alt={data.name} className="card-image" />
       <h3>{data.name}</h3>
       <p>{data.description}</p>
@@ -35,7 +44,7 @@ const Card = ({ type, data }) => {
           </a>
         </>
       )}
-    </div>
+    </CardWrapper>
   )
 }
 
