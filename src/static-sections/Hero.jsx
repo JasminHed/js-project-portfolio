@@ -48,10 +48,10 @@ const Hero = ({ name, title, description, bio, img }) => {
           My interest in AI led me to the tech world, where I then was drawn to its flexibility, inclusivity and creative freedom – a space where my experience can add value.</p>
         <SocialIcons>
           <a href="https://github.com/JasminHed" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/GitHub.svg" alt="GitHub icon" />
+            <img src="/assets/GitHub.svg" alt="GitHub icon" width="24" height="24" />
           </a>
           <a href="https://www.linkedin.com/in/jasmin-hedlund-0b0922242/" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/LinkedIn.svg" alt="LinkedIn icon" />
+            <img src="/assets/LinkedIn.svg" alt="LinkedIn icon" width="24" height="24" />
           </a>
         </SocialIcons>
 

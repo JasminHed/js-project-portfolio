@@ -66,10 +66,10 @@ const Footer = () => {
 
           <SocialIcons>
             <a href="https://github.com/JasminHed" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/GitHub.svg" alt="GitHub icon" />
+              <img src="/assets/GitHub.svg" alt="GitHub icon" width="24" height="24" />
             </a>
             <a href="https://www.linkedin.com/in/jasmin-hedlund-0b0922242/" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/LinkedIn.svg" alt="LinkedIn icon" />
+              <img src="/assets/LinkedIn.svg" alt="LinkedIn icon" width="24" height="24" />
             </a>
           </SocialIcons>
 
