@@ -2,9 +2,10 @@ import styled from "styled-components"
 
 
 const CardImage = styled.img`
-height: 300px;
-width: 400px;
-object-fit: cover;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3; 
+  object-fit: cover;
 
 `
 

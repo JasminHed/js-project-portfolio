@@ -8,14 +8,7 @@ const SectionWrapper = styled.section`
   flex-direction: column;
   gap: 24px;
 
-  @media (min-width: 668px) {
-    flex-direction: row;
-    justify-content: center;
-  }
 
-  @media (min-width: 1024px) {
-    gap: 64px;
-  }
 `
 
 const Journey = () => {

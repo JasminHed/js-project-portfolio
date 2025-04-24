@@ -8,15 +8,18 @@ const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   gap: 24px;
+  
 
   @media (min-width: 668px) {
-    flex-direction: row;
-    justify-content: center;
-  }
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 32px;
+}
 
-  @media (min-width: 1024px) {
-    gap: 64px;
-  }
+@media (min-width: 1024px) {
+  gap: 48px;
+}
 `
 
 const Project = () => {

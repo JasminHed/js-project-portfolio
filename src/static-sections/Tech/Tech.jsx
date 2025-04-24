@@ -4,10 +4,10 @@ const SectionWrapper = styled.section`
  display: flex;
  flex-direction: column;
  align-items: center;
- align-self: stretch;
- padding: 64px 0px;
- height: 580px;
- gap: 64px;
+ padding: 64px 24px;
+ width: 100%;
+ max-width: 100vw;
+ gap: 32px;
 
 `
 
@@ -38,7 +38,8 @@ const Tech = () => {
           <p>Web Accessibility</p>
           <p>HTML & CSS</p>
           <p>APIs</p>
-          <p>Mob programming & Pair programming</p>
+          <p>Mob programming</p>
+          <p>Pair programming</p>
           <p>Github</p>
         </TechText>
       </TechContent>

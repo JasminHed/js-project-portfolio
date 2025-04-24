@@ -47,12 +47,10 @@ const FooterText = styled.div`
  align-items: flex-start;
 
 `
-
-const SocialIcons = styled.div`
+const SocialIcons = styled.div` 
   display: flex;
   gap: 16px;
   margin-top: 8px;
-  
 `
 
 const Footer = () => {

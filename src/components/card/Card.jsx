@@ -1,14 +1,33 @@
 import React from "react"
-import CardImage from "../Cardimage"
 import styled from "styled-components"
+import CardImage from "../Cardimage"
+import { ButtonGroup, PrimaryButton, SecondaryButton } from "../Button"
+
 
 const CardWrapper = styled.article`
   width: 100%;
-  width: 560px;
-  min-height: 300px;
+  max-width: 100%;
+  padding: 16px;
 
+  h3 {
+    margin-bottom: 8px; 
+  }
 
+  p {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+  @media (min-width: 668px) {
+    width: 48%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 30%;
+  }
 `
+
 
 const Card = ({ type, data }) => {
   return (
@@ -19,14 +38,12 @@ const Card = ({ type, data }) => {
 
       {type === "journey" && (
         <>
-          <ul>
-            {data.tags.map((tag) => (
-              <li key={tag}>{tag}</li>
-            ))}
-          </ul>
-          <a href={data.readarticle} target="_blank" rel="noopener noreferrer">
-            Read article
-          </a>
+          <ButtonGroup>
+            <SecondaryButton href={data.readarticle} target="_blank" rel="noopener noreferrer">
+              Read article
+            </SecondaryButton>
+          </ButtonGroup>
+
         </>
       )}
 
@@ -34,13 +51,15 @@ const Card = ({ type, data }) => {
         <>
           <p>Languages: {data.languages.join(', ')}</p>
           <p>Features: {data.features.join(', ')}</p>
-          <a href={data.netlify} target="_blank" rel="noopener noreferrer">
-            Live
-          </a>{' '}
-          |{' '}
-          <a href={data.github} target="_blank" rel="noopener noreferrer">
-            Code
-          </a>
+          <ButtonGroup>
+            <PrimaryButton href={data.netlify} target="_blank" rel="noopener noreferrer">
+              Go to live website
+            </PrimaryButton>
+            <SecondaryButton href={data.github} target="_blank" rel="noopener noreferrer">
+              View Code
+            </SecondaryButton>
+          </ButtonGroup>
+
         </>
       )}
     </CardWrapper>

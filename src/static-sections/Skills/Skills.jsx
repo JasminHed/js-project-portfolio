@@ -4,25 +4,42 @@ const SectionWrapper = styled.section`
 display: flex;
 flex-direction: column;
 align-items: center;
-align-self: stretch;
-padding: 64px 0px;
-height: 580px;
-gap: 64px;
+padding: 64px 24px;
+width: 100%;
+max-width: 100vw;
+gap: 32px;
 
 `
 const SkillsContent = styled.div`
-display: flex;
-justify-content: center;
-align-items: flext-start;
-gap: 24px;
-width: 820px;
-`
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
 
+@media (min-width: 668px) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 28px;
+    margin-right: 5px;
+    margin: 0 auto;
+
+  @media (min-width: 1024px) and (max-width: 1600px) {
+  gap: 96px; 
+  max-width: 1000px;
+  justify-content: center;
+  padding: 32px 24px 64px;
+}
+`
+//Text over each other and aligned in column
 const SkillsText = styled.div`
     display: flex;
     flex-direction: column;
-    align-self: stretch;
-  
+    width: 45%; 
+    min-width: 140px; 
+    text-align: left;
 `
 
 const Skills = () => {
