@@ -1,6 +1,6 @@
 import projectData from "../data/projects.json"
 import React from "react"
-import Card from "../../components/Card.jsx"
+import Card from "../../components/Card.jsxX"
 import styled from "styled-components"
 
 
