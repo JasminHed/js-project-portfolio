@@ -9,17 +9,17 @@ const SectionWrapper = styled.section`
   flex-direction: column;
   gap: 24px;
   
+@media (min-width: 668px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 28px;
+  }
 
-  @media (min-width: 668px) {
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 32px;
-}
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
 
-@media (min-width: 1024px) {
-  gap: 48px;
-}
 `
 
 const Project = () => {

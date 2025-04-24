@@ -7,7 +7,6 @@ const GlobalStyle = createGlobalStyle`
     --color-text: #202020;
     --color-primary: #D3C7DF;
     --color-secondary: #9A7FAC;
-  
     --font-heading: 'Prata', serif;
     --font-body: 'Poppins', sans-serif;
   }
@@ -58,7 +57,7 @@ main {
   }
 
 a {
-  color: #9A7FAC;
+  color: var (--color-text)
   text-decoration: none;
 
 &:hover { 

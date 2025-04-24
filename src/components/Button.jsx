@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const ButtonGroup = styled.div` 
   display: flex;
   gap: 8px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-top: 12px;
 
   @media (min-width: 668px) {
@@ -14,7 +14,7 @@ export const ButtonGroup = styled.div`
   `
 
 export const PrimaryButton = styled.a`
-  padding: 4px 6px;
+  padding: 4px 4px;
   text-decoration: none;
   border-radius: 4px;
   color: var(--color-text);
@@ -26,10 +26,20 @@ export const PrimaryButton = styled.a`
   &:hover {
     text-decoration: underline;
   }
+
+  @media (min-width: 668px) {
+    padding: 4px 4px;
+    font-size: 14px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 8px 10px;
+    font-size: 16px;
+  }
 `
 
 export const SecondaryButton = styled.a`
-  padding: 4px 8px;
+  padding: 4px 4px;
   border: 2px solid var(--color-secondary);
   color: var(--color-text);
   text-decoration: none;
@@ -39,6 +49,16 @@ export const SecondaryButton = styled.a`
 
   &:hover {
     text-decoration: underline;
+  }
+
+   @media (min-width: 668px) {
+    padding: 4px 4px;
+    font-size: 14px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 8px 10px;
+    font-size: 16px;
   }
 `
 

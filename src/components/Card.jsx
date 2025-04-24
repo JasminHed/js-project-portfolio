@@ -5,12 +5,17 @@ import { ButtonGroup, PrimaryButton, SecondaryButton } from "./Button"
 
 
 const CardWrapper = styled.article`
-  width: 100%;
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
   h3 {
     margin-bottom: 8px; 
+    var(--color-text);
   }
 
   p {
@@ -18,14 +23,6 @@ const CardWrapper = styled.article`
   margin-bottom: 6px;
   text-align: left;
 }
-
-  @media (min-width: 668px) {
-    width: 48%;
-  }
-
-  @media (min-width: 1024px) {
-    width: 30%;
-  }
 `
 
 
