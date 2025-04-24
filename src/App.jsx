@@ -14,8 +14,8 @@ const App = () => {
     <>
       <GlobalStyle />
       <SkipToLink />
-      <main id="main">
-        <Hero />
+      <Hero />
+      <main>
         <Skills />
         <Project />
         <Tech />

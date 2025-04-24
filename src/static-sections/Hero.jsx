@@ -27,6 +27,11 @@ const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding: 8px 8px;
+  
+    h2 {
+    text-align: left;
+    }
     
 `
 const SocialIcons = styled.div`

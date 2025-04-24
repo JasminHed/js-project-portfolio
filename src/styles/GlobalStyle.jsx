@@ -43,10 +43,10 @@ main {
   h2 {
   font-family: var(--font-heading);
   font-size: 24px;
-  margin: 0 auto;
+  text-align:center;
   margin-bottom: 10px;
 }
-  }
+  
 
   h3 {
   font-family: var(--font-heading);
