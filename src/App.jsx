@@ -15,7 +15,7 @@ const App = () => {
       <GlobalStyle />
       <SkipToLink />
       <Hero />
-      <main>
+      <main id="main">
         <Skills />
         <Project />
         <Tech />
