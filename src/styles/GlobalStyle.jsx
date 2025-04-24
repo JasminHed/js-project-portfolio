@@ -26,6 +26,7 @@ main {
     margin: 0;
     font-family: var(--font-body);
     font-size: 16px;
+    line-height: 1.5;
     color: var(--color-text);
     background: white;
     overflow-x: hidden;

@@ -27,7 +27,7 @@ const SkillsContent = styled.div`
     flex-wrap: nowrap;
     align-items: flex-start;
     gap: 28px;
-    margin-left: 6px;
+    margin-left: 12px;
     margin: 0 auto;
 
   @media (min-width: 1024px) and (max-width: 1600px) {
