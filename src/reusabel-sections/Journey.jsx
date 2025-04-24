@@ -1,6 +1,6 @@
-import journeyData from "../../data/journey.json"
+import journeyData from "../data/journey.json"
 import React from "react"
-import Card from "../../components/Card/Card.jsx"
+import Card from "../components/Card.jsx"
 import styled from "styled-components"
 
 const SectionWrapper = styled.section`

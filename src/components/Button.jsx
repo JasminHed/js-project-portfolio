@@ -6,6 +6,11 @@ export const ButtonGroup = styled.div`
   gap: 8px;
   flex-wrap: wrap;
   margin-top: 12px;
+
+  @media (min-width: 668px) {
+    flex-direction: row; 
+    gap: 8px; 
+  }
   `
 
 export const PrimaryButton = styled.a`

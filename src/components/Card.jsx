@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import CardImage from "../Cardimage"
-import { ButtonGroup, PrimaryButton, SecondaryButton } from "../Button"
+import CardImage from "./Cardimage"
+import { ButtonGroup, PrimaryButton, SecondaryButton } from "./Button"
 
 
 const CardWrapper = styled.article`

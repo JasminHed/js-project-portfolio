@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import ProfileImage from "../../components/Profileimage"
+import ProfileImage from "../components/Profileimage"
 
 
 const HeroWrapper = styled.section`
