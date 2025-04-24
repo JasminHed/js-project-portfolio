@@ -10,7 +10,7 @@ height: 580px;
 gap: 64px;
 
 `
-const SectionContent = style.section`
+const SectionContent = style.div`
 display: flex;
 justify-content: center;
 align-items: flext-start;

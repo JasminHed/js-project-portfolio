@@ -1,6 +1,6 @@
-import style from "styled-components"
+import styled from "styled-components"
 
-const SectionWrapper = style.section`
+const SectionWrapper = styled.section`
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -11,7 +11,7 @@ gap: 64px;
 
 `
 
-const SectionContent = style.section`
+const SectionContent = styled.div`
 display: flex;
   justify-content: center;
   align-items: center;

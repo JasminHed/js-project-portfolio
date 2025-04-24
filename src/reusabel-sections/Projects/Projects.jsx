@@ -1,15 +1,14 @@
 import projectData from "../../data/projects.json"
 import React from "react"
-import Card from "../../components/card/Card.jsx"
-import style from "styled-components"
+import Card from "../../components/Card/Card.jsx"
+import styled from "styled-components"
 
 
-const SectionWrapper = style.section`
+const SectionWrapper = styled.section`
 display: flex;
 flex-direction: row;
 gap: 64px;
 justify-content: center;
-
 
 `
 const Project = () => {

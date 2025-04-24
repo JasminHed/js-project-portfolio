@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
 
   h1, h2, h3, h4 {
     font-family: var(--font-heading);
+    margin: 0;
   }
 
   h1 {
@@ -33,6 +34,19 @@ const GlobalStyle = createGlobalStyle`
   font-size: 18px;
   }
   
+  p {
+  margin: 0;
+}
+
+a {
+  color: #9A7FAC;
+  text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+color: inherit;
+}
 `
 
 export default GlobalStyle

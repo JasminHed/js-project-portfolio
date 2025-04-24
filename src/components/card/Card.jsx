@@ -1,20 +1,18 @@
 import React from "react"
-import "./Card.css"
-import style from "styled-components" //new
+import CardImage from "../Cardimage"
+import styled from "styled-components"
 
-const CardWrapper = style.article`
-  width: 564px;
+const CardWrapper = styled.article`
+  width: 560px;
   border: 2px solid blue;
-  
-
+  min-height: 300px;
 
 `
-
 
 const Card = ({ type, data }) => {
   return (
     <CardWrapper>
-      <img src={data.image} alt={data.name} className="card-image" />
+      <CardImage src={data.image} alt={data.name} />
       <h3>{data.name}</h3>
       <p>{data.description}</p>
 
