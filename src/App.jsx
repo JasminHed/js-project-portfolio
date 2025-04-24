@@ -14,11 +14,13 @@ const App = () => {
     <>
       <GlobalStyle />
       <SkipToLink />
-      <Hero />
-      <Skills />
-      <Project />
-      <Tech />
-      <Journey />
+      <main id="main">
+        <Hero />
+        <Skills />
+        <Project />
+        <Tech />
+        <Journey />
+      </main>
       <Footer />
 
     </>

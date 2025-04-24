@@ -3,9 +3,10 @@ import CardImage from "../Cardimage"
 import styled from "styled-components"
 
 const CardWrapper = styled.article`
+  width: 100%;
   width: 560px;
-  border: 2px solid blue;
   min-height: 300px;
+
 
 `
 

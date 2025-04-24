@@ -5,15 +5,23 @@ import styled from "styled-components"
 
 
 const SectionWrapper = styled.section`
-display: flex;
-flex-direction: row;
-gap: 64px;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 
+  @media (min-width: 668px) {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  @media (min-width: 1024px) {
+    gap: 64px;
+  }
 `
+
 const Project = () => {
   return (
-    <SectionWrapper id="main">
+    <SectionWrapper>
       {projectData.projects.map((item) => (
         <Card key={item.id} type="project" data={item} />
       ))}

@@ -4,19 +4,30 @@ import ProfileImage from "../../components/Profileimage"
 
 const HeroWrapper = styled.section`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 128px 128px 64px 128px;
-  gap:64px;
-  max-width: 1280px;
-  margin: 0 auto;
+  padding: 64px 24px;
+  gap:24px;
+  width: 100%;
+  max-width: 100vw;
 
+  @media (min-width: 668px) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 40px;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1600px) {
+    padding: 128px;
+    gap: 64px;
+    max-width: 1280px;
+  }
 `
 const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 8px;
-    max-width: 600px;
     
 `
 const SocialIcons = styled.div`
@@ -25,12 +36,6 @@ const SocialIcons = styled.div`
   margin-top: 8px;
   
 `
-const HeroImage = styled(ProfileImage)`
-align-item: flex-end;
-
-`
-
-
 const Hero = ({ name, title, description, bio, img }) => {
   return (
     <HeroWrapper>
@@ -53,7 +58,7 @@ const Hero = ({ name, title, description, bio, img }) => {
 
 
       </HeroContent>
-      <HeroImage src="/assets/profile.jpg" alt="Profile picture of Jasmin" />
+      <ProfileImage src="/assets/profile.jpg" alt="Profile picture of Jasmin" />
     </HeroWrapper>
   )
 }
