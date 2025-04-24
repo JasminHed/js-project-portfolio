@@ -43,6 +43,8 @@ main {
   h2 {
   font-family: var(--font-heading);
   font-size: 24px;
+  margin: 32px 0 16px; 
+}
   }
 
   h3 {

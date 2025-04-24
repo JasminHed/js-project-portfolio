@@ -24,11 +24,14 @@ const SectionWrapper = styled.section`
 
 const Project = () => {
   return (
-    <SectionWrapper>
-      {projectData.projects.map((item) => (
-        <Card key={item.id} type="project" data={item} />
-      ))}
-    </SectionWrapper>
+    <>
+      <h2>Projects</h2>
+      <SectionWrapper>
+        {projectData.projects.map((item) => (
+          <Card key={item.id} type="project" data={item} />
+        ))}
+      </SectionWrapper>
+    </>
   )
 }
 

@@ -28,6 +28,7 @@ const SectionWrapper = styled.section`
 const Journey = () => {
   return (
     <>
+      <h2>Journey</h2>
       <SectionWrapper>
         {journeyData.journey.map((item) => (
           <Card key={item.id} type="journey" data={item} />
