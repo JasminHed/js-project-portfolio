@@ -99,7 +99,7 @@ const Hero = () => {
         </SocialIcons>
       </HeroContent>
       <ProfileImage
-        src="/assets/profile.webp"
+        src="/assets/profile-optimized.webp"
         alt="Profile picture of Jasmin"
           width="200"
           height="200" 

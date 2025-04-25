@@ -3,21 +3,21 @@
     {
       "id": "1",
       "name": "Diving into Tech",
-      "image": "/assets/Tech.webp",
+      "image": "/assets/Tech-optimized.webp",
       "description": "Why and how I found my way into Tech and what it has really meant.",
       "readarticle": "https://medium.com/@jasminhedlund/diving-into-tech-a7260565ca6d"
     },
     {
       "id": "2",
       "name": "My first real project idea",
-      "image": "/assets/Project.webp",
+      "image": "/assets/Project-optimized.webp",
       "description": "You can go from an idea to something you build — just by learning and trying.",
       "readarticle": "https://medium.com/@jasminhedlund/my-first-real-project-idea-dailyhealth-72771545b8a9"
     },
     {
       "id": "3",
       "name": "Can you love code?",
-      "image": "/assets/Balance.webp",
+      "image": "/assets/Balance-optimized.webp",
       "description": "Sometimes I wonder — does coding have to be your whole life to count as a passion?",
       "readarticle": "https://medium.com/@jasminhedlund/can-you-love-code-and-still-love-other-things-yes-cb968a948938"
     }
