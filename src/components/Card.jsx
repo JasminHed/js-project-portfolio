@@ -3,7 +3,6 @@ import styled from "styled-components"
 import CardImage from "./Cardimage"
 import { ButtonGroup, PrimaryButton, SecondaryButton } from "./Button"
 
-
 const CardWrapper = styled.article`
   display: flex;
   flex-direction: column;
@@ -14,17 +13,16 @@ const CardWrapper = styled.article`
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
   h3 {
-    margin-bottom: 8px; 
+    margin-bottom: 8px;
     color: var(--color-text);
   }
 
   p {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  text-align: left;
-}
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align: left;
+  }
 `
-
 
 const Card = ({ type, data }) => {
   return (
@@ -36,27 +34,37 @@ const Card = ({ type, data }) => {
       {type === "journey" && (
         <>
           <ButtonGroup>
-            <SecondaryButton href={data.readarticle} target="_blank" rel="noopener noreferrer">
+            <SecondaryButton
+              href={data.readarticle}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Read article
             </SecondaryButton>
           </ButtonGroup>
-
         </>
       )}
 
       {type === "project" && (
         <>
-          <p>Languages: {data.languages.join(', ')}</p>
-          <p>Features: {data.features.join(', ')}</p>
+          <p>Languages: {data.languages.join(", ")}</p>
+          <p>Features: {data.features.join(", ")}</p>
           <ButtonGroup>
-            <PrimaryButton href={data.netlify} target="_blank" rel="noopener noreferrer">
+            <PrimaryButton
+              href={data.netlify}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Go to live website
             </PrimaryButton>
-            <SecondaryButton href={data.github} target="_blank" rel="noopener noreferrer">
+            <SecondaryButton
+              href={data.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Code
             </SecondaryButton>
           </ButtonGroup>
-
         </>
       )}
     </CardWrapper>

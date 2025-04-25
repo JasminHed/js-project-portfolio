@@ -3,16 +3,15 @@ import React from "react"
 import Card from "../components/Card.jsx"
 import styled from "styled-components"
 
-
 const SectionContent = styled.section`
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
   margin-bottom: 10px;
 
-@media (min-width: 668px) {
+  @media (min-width: 668px) {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 28px;
     margin-bottom: 15px;
   }
@@ -22,7 +21,6 @@ const SectionContent = styled.section`
     gap: 40px;
     margin-bottom: 20px;
   }
-
 `
 
 const Journey = () => {
@@ -39,7 +37,5 @@ const Journey = () => {
     </>
   )
 }
-
-
 
 export default Journey

@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle` 
 
   :root {
     --color-text: #202020;

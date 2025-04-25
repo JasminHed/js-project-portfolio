@@ -1,14 +1,13 @@
 import styled from "styled-components"
 
 const SectionWrapper = styled.section`
- display: flex;
- flex-direction: column;
- align-items: center;
- padding: 64px 24px;
- width: 100%;
- max-width: 100vw;
- gap: 32px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  width: 100%;
+  max-width: 100vw;
+  gap: 32px;
 `
 
 const TechContent = styled.div`
@@ -17,15 +16,13 @@ const TechContent = styled.div`
   align-items: center;
   max-width: 820px;
   text-align: center;
-  `
+`
 
 const TechText = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  
-  `
-
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+`
 
 const Tech = () => {
   return (
@@ -46,6 +43,5 @@ const Tech = () => {
     </SectionWrapper>
   )
 }
-
 
 export default Tech

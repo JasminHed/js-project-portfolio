@@ -1,17 +1,16 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-
-export const ButtonGroup = styled.div` 
+export const ButtonGroup = styled.div`
   display: flex;
   gap: 8px;
   flex-wrap: nowrap;
   margin-top: 12px;
 
   @media (min-width: 668px) {
-    flex-direction: row; 
-    gap: 8px; 
+    flex-direction: row;
+    gap: 8px;
   }
-  `
+`;
 
 export const PrimaryButton = styled.a`
   padding: 4px 4px;
@@ -22,7 +21,6 @@ export const PrimaryButton = styled.a`
   border: none;
   width: fit-content;
 
-
   &:hover {
     text-decoration: underline;
   }
@@ -35,7 +33,7 @@ export const PrimaryButton = styled.a`
     padding: 8px 10px;
     font-size: 16px;
   }
-`
+`;
 
 export const SecondaryButton = styled.a`
   padding: 4px 4px;
@@ -45,12 +43,11 @@ export const SecondaryButton = styled.a`
   border-radius: 4px;
   width: fit-content;
 
-
   &:hover {
     text-decoration: underline;
   }
 
-   @media (min-width: 668px) {
+  @media (min-width: 668px) {
     padding: 4px 4px;
     font-size: 14px;
   }
@@ -59,4 +56,4 @@ export const SecondaryButton = styled.a`
     padding: 8px 10px;
     font-size: 16px;
   }
-`
+`;
