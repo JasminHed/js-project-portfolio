@@ -59,6 +59,8 @@ const Skills = () => {
           <p>CSS</p>
         </SkillsText>
 
+        
+
         <SkillsText>
           <h3>Toolbox</h3>
           <p>Agile Methodology</p>
@@ -69,11 +71,15 @@ const Skills = () => {
           <p>Wordpress</p>
         </SkillsText>
 
+        
+
         <SkillsText>
           <h3>Upcoming</h3>
           <p>Node.js</p>
           <p>AI Prompting</p>
         </SkillsText>
+
+      
 
         <SkillsText>
           <h3>More</h3>

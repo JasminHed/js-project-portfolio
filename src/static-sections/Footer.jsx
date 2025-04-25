@@ -59,7 +59,7 @@ const Footer = () => {
           width="200"
           height="200" 
           loading="lazy"
-          priority
+          
         />
         <FooterText>
           <h2>Let´s Talk</h2>

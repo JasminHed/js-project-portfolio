@@ -13,7 +13,7 @@ const App = () => {
     <>
       <SkipToLink />
       <GlobalStyle />
-      <Hero aria-label="Header"/>
+      <Hero aria-label="Hero" />
       <main id="main" aria-label="Main-Content">
         <Skills/>
         <Project />
