@@ -15,7 +15,7 @@ const CardWrapper = styled.article`
 
   h3 {
     margin-bottom: 8px; 
-    var(--color-text);
+    color: var(--color-text);
   }
 
   p {

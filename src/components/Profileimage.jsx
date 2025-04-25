@@ -9,9 +9,6 @@ const ProfileImage = styled.img`
     object-position: 50% 8%; //center 50%, move up from top 8% s head shows, good for footer
     flex-shrink: 0; // good for hero, made it stay in size
   
-
-
-  }
 `
 
 

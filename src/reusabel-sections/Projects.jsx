@@ -4,9 +4,9 @@ import Card from "../components/Card"
 import styled from "styled-components"
 
 
-const SectionWrapper = styled.section`
-  display: flex;
-  flex-direction: column;
+const SectionContent = styled.section`
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 24px;
   
 @media (min-width: 668px) {
@@ -25,12 +25,14 @@ const SectionWrapper = styled.section`
 const Project = () => {
   return (
     <>
-      <h2>Projects</h2>
-      <SectionWrapper>
-        {projectData.projects.map((item) => (
-          <Card key={item.id} type="project" data={item} />
-        ))}
-      </SectionWrapper>
+      <section>
+        <h2>Projects</h2>
+        <SectionContent>
+          {projectData.projects.map((item) => (
+            <Card key={item.id} type="project" data={item} />
+          ))}
+        </SectionContent>
+      </section>
     </>
   )
 }

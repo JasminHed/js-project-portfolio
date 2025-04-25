@@ -12,7 +12,7 @@ const FooterWrapper = styled.footer`
   text-align: center;
   background-color: #D3C7DF;
   width: 100%;
-  max-width: 100vw; //Keep it within page
+  max-width: 100vw; 
 
   @media (min-width: 668px) {
     padding: 64px;
@@ -22,7 +22,7 @@ const FooterWrapper = styled.footer`
   }
 
   @media (min-width: 1024px) {
-    padding: 64px 128px 128px 128px; //as per Figma design
+    padding: 64px 128px 128px 128px; 
   }
     `
 
@@ -66,10 +66,10 @@ const Footer = () => {
 
           <SocialIcons>
             <a href="https://github.com/JasminHed" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/GitHub.svg" alt="GitHub icon" width="24" height="24" />
+              <img src="/assets/GitHub.svg" alt="Visit Jasmins GitHub" width="24" height="24" />
             </a>
             <a href="https://www.linkedin.com/in/jasmin-hedlund-0b0922242/" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/LinkedIn.svg" alt="LinkedIn icon" width="24" height="24" />
+              <img src="/assets/LinkedIn.svg" alt="Visit Jasmins LinkedIn" width="24" height="24" />
             </a>
           </SocialIcons>
 

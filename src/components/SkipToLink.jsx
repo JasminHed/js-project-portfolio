@@ -17,7 +17,7 @@ const SkipLink = styled.a`
 
 const SkipToLink = () => {
   return (
-    <SkipLink href="#main">
+    <SkipLink href="#main" tabIndex="0">
       Skip to main content
     </SkipLink>
   )

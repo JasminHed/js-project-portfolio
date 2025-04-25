@@ -4,9 +4,9 @@ import Card from "../components/Card.jsx"
 import styled from "styled-components"
 
 
-const SectionWrapper = styled.section`
-  display: flex;
-  flex-direction: column;
+const SectionContent = styled.section`
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 24px;
   margin-bottom: 10px;
 
@@ -28,13 +28,14 @@ const SectionWrapper = styled.section`
 const Journey = () => {
   return (
     <>
-      <h2>Journey</h2>
-      <SectionWrapper>
-        {journeyData.journey.map((item) => (
-          <Card key={item.id} type="journey" data={item} />
-        ))}
-      </SectionWrapper>
-
+      <section>
+        <h2>Journey</h2>
+        <SectionContent>
+          {journeyData.journey.map((item) => (
+            <Card key={item.id} type="journey" data={item} />
+          ))}
+        </SectionContent>
+      </section>
     </>
   )
 }

@@ -15,7 +15,7 @@ const TechContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 820px;
+  max-width: 820px;
   text-align: center;
   `
 

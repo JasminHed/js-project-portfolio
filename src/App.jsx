@@ -1,4 +1,4 @@
-import React from "react"
+
 import GlobalStyle from "./styles/GlobalStyle.jsx"
 import SkipToLink from "./components/SkipToLink"
 import Hero from "./static-sections/Hero.jsx"

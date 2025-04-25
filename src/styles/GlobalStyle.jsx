@@ -60,7 +60,7 @@ main {
   }
 
 a {
-  color: var(--color-text)
+  color: var(--color-text);
   text-decoration: none;
 
 &:hover { 

@@ -28,7 +28,6 @@ export const PrimaryButton = styled.a`
   }
 
   @media (min-width: 668px) {
-    padding: 4px 4px;
     font-size: 14px;
   }
 
