@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Business site - Health by Jasmin",
-      "image": "/assets/Business.png",
+      "image": "/assets/Business.webp",
       "description": " A responsive & interactive business website for yoga and ayurveda. Own design.",
       "languages": [
         "HTML5",
@@ -22,7 +22,7 @@
     {
       "id": "4",
       "name": "Accessibility Quiz",
-      "image": "/assets/Access.png",
+      "image": "/assets/Access.webp",
       "description": "An interactive educational quiz on accessibility. Followed design from Figma",
       "languages": [
         "HTML5",
@@ -42,7 +42,7 @@
     {
       "id": "5",
       "name": "Daily Health",
-      "image": "/assets/DailyHealth.png",
+      "image": "/assets/DailyHealth.webp",
       "description": "An interactive application that is based on the user being interactive to get a daily health tip. Own project and design. Ongoing project.",
       "languages": [
         "HTML5",

@@ -57,7 +57,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <FooterContent>
-        <ProfileImage src="/assets/profile.jpg" alt="Profile picture of Jasmin" />
+        <ProfileImage src="/assets/profile.webp" alt="Profile picture of Jasmin" />
         <FooterText>
           <h2>Let´s Talk</h2>
           <p>Jasmin Hedlund</p>

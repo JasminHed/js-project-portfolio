@@ -12,8 +12,8 @@ import Footer from "./static-sections/Footer.jsx"
 const App = () => {
   return (
     <>
-      <GlobalStyle />
       <SkipToLink />
+      <GlobalStyle />
       <Hero />
       <main id="main">
         <Skills />

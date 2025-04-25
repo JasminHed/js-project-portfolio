@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Prata&display=swap');
 
   :root {
     --color-text: #202020;
@@ -61,14 +60,14 @@ main {
   }
 
 a {
-  color: var (--color-text)
+  color: var(--color-text)
   text-decoration: none;
 
 &:hover { 
   text-decoration: underline;
-  color: inherit;
+  color: var(--color-secondary);
 }
-}
+
 
 @media (min-width: 668px) {
     h1 {

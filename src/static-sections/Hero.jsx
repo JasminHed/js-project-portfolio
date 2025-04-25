@@ -67,7 +67,7 @@ const Hero = ({ name, title, description, bio, img }) => {
 
 
       </HeroContent>
-      <ProfileImage src="/assets/profile.jpg" alt="Profile picture of Jasmin" />
+      <ProfileImage src="/assets/profile.webp" alt="Profile picture of Jasmin" />
     </HeroWrapper>
   )
 }
