@@ -101,6 +101,8 @@ const Hero = () => {
       <ProfileImage
         src="/assets/profile.webp"
         alt="Profile picture of Jasmin"
+          width="200"
+                height="200"
       />
     </HeroWrapper>
   )
