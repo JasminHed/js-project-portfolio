@@ -13,14 +13,14 @@ const App = () => {
     <>
       <SkipToLink />
       <GlobalStyle />
-      <Hero />
-      <main id="main">
-        <Skills />
+      <Hero aria-label="Header"/>
+      <main id="main" aria-label="Main-Content">
+        <Skills/>
         <Project />
         <Tech />
         <Journey />
       </main>
-      <Footer />
+      <Footer aria-label="Footer-Contact" />
     </>
   )
 }
