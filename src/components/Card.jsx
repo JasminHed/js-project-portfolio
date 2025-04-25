@@ -27,7 +27,10 @@ const CardWrapper = styled.article`
 const Card = ({ type, data }) => {
   return (
     <CardWrapper>
-      <CardImage src={data.image} alt={data.name} />
+      <CardImage src={data.image} alt={data.name} 
+        width={data.width}
+        height={data.height}     
+        loading="lazy" />
       <h3>{data.name}</h3>
       <p>{data.description}</p>
 

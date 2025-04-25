@@ -57,7 +57,8 @@ const Footer = () => {
           src="/assets/profile.webp"
           alt="Profile picture of Jasmin"
           width="200"
-                height="200"
+          height="200" 
+          loading="lazy"
         />
         <FooterText>
           <h2>Let´s Talk</h2>
