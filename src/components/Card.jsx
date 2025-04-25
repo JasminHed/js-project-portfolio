@@ -10,7 +10,7 @@ const CardWrapper = styled.article`
   height: 100%;
   padding: 16px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   h3 {
     margin-bottom: 8px;

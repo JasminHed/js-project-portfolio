@@ -7,6 +7,7 @@ import Tech from "./static-sections/Tech.jsx"
 import Journey from "./reusabel-sections/Journey.jsx"
 import Footer from "./static-sections/Footer.jsx"
 
+
 const App = () => {
   return (
     <>

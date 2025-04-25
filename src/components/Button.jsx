@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const ButtonGroup = styled.div`
   display: flex;
@@ -33,7 +33,7 @@ export const PrimaryButton = styled.a`
     padding: 8px 10px;
     font-size: 16px;
   }
-`;
+`
 
 export const SecondaryButton = styled.a`
   padding: 4px 4px;
@@ -56,4 +56,4 @@ export const SecondaryButton = styled.a`
     padding: 8px 10px;
     font-size: 16px;
   }
-`;
+`

@@ -12,6 +12,7 @@ const SkipLink = styled.a`
 
   &:focus {
     top: 16px;
+    border: 2px solid var(--secondary-color);
   }
 `
 
