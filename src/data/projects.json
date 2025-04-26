@@ -13,8 +13,7 @@
       "features": [
         "Flexbox",
         "Grid",
-        "Responsive Design",
-        "Accessibility"
+        "Responsive Design"
       ],
       "netlify": "https://healthbyjasmin.netlify.app/",
       "github": "https://github.com/JasminHed/healthbyjasmin-project-business-site"
@@ -50,7 +49,9 @@
         "Typescript"
       ],
       "features": [
-        "API"
+        "API","Local Storage",
+        "Search Functionality",
+        "Responsive Design"
       ],
       "netlify": "https://nordicweatherapp.netlify.app/",
       "github": "https://github.com/JasminHed/newjs-project-weather-app"
