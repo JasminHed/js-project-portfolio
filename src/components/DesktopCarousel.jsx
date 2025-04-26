@@ -29,7 +29,7 @@ const Dots = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 `
 //Styling the dots
 const DotButton = styled.button`
