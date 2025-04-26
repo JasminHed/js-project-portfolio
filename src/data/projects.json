@@ -21,6 +21,42 @@
     },
     {
       "id": "2",
+      "name": "Recipe App",
+      "image": "/assets/Recipe-optimized.webp",
+      "description": "An interactive recipe application with dynamic filtering options and nutritional information. Followed design on Figma",
+      "languages": [
+        "HTML5",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "API",
+        "Local Storage",
+        "Search Functionality",
+        "Responsive Design"
+      ],
+      "netlify": "https://jrecipelibrary.netlify.app/",
+      "github": "https://github.com/JasminHed/js-project-recipe"
+    },
+    {
+      "id": "3",
+      "name": "Weather App",
+      "image": "assets/Weather-optimized.webp",
+      "description": "An interactive weather application with dynamic sorting options on capitals and weather",
+      "languages": [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "Typescript"
+      ],
+      "features": [
+        "API"
+      ],
+      "netlify": "https://nordicweatherapp.netlify.app/",
+      "github": "https://github.com/JasminHed/newjs-project-weather-app"
+    },
+    {
+      "id": "2",
       "name": "Accessibility Quiz",
       "image": "/assets/Access-optimized.webp",
       "description": "An interactive educational quiz on accessibility. Followed design from Figma",

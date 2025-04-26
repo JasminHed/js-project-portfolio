@@ -20,6 +20,14 @@
       "image": "/assets/Balance-optimized.webp",
       "description": "Sometimes I wonder — does coding have to be your whole life to count as a passion?",
       "readarticle": "https://medium.com/@jasminhedlund/can-you-love-code-and-still-love-other-things-yes-cb968a948938"
+    },
+    {
+      "id": "4",
+      "name": "Career Week just kicked off at Technigo",
+      "image": "/assets/Celebration-optimized.webp",
+      "description": "Two full weeks of React ahead.",
+      "readarticle": "https://medium.com/@jasminhedlund/career-week-just-kicked-off-at-technigo-and-with-that-weve-also-started-planning-and-building-752c430ecb82"
     }
+
   ]
 }
