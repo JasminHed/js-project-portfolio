@@ -33,8 +33,9 @@ const Dots = styled.div`
 `
 //Styling the dots
 const DotButton = styled.button`
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
+  gap: 25px;
   border-radius: 50%;
   background-color: ${props => props.isActive ? 'var(--color-primary)' : '#ccc'};
   margin: 0 5px;
