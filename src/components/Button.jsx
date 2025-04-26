@@ -21,9 +21,6 @@ export const PrimaryButton = styled.a`
   border: none;
   width: fit-content;
 
-  &:hover {
-    text-decoration: underline;
-  }
 
   @media (min-width: 668px) {
     font-size: 14px;
@@ -43,9 +40,6 @@ export const SecondaryButton = styled.a`
   border-radius: 4px;
   width: fit-content;
 
-  &:hover {
-    text-decoration: underline;
-  }
 
   @media (min-width: 668px) {
     padding: 4px 4px;

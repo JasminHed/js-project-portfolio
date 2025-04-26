@@ -1,11 +1,12 @@
 import styled from "styled-components"
 
 const CardImage = styled.img`
-  width: 100%;
+  width: 90%;
   aspect-ratio: 4 / 3;
-  max-height: 220px;
+  max-height: 200px;
   object-fit: cover;
-  margin-bottom: 10px;
+  border-radius: 6px;
+  margin: 0 auto;
 `
 
 export default CardImage

@@ -28,19 +28,6 @@ const Project = () => {
   )
 }
 
-/*{const Project = () => {
-  return (
-    <>
-      <section>
-        <h2>Projects</h2>
-        <CardWrapper>
-          {projectData.projects.map((item) => (
-            <Card key={item.id} type="project" data={item} />
-          ))}
-        </CardWrapper>
-      </section>
-    </>
-  )
-}}*/
+  
 
 export default Project

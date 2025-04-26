@@ -33,18 +33,4 @@ export default Journey
 
 
 
-/*const Journey = () => {
-  return (
-    <>
-      <section>
-        <h2>Journey</h2>
-        <CardWrapper>
-          {journeyData.journey.map((item) => (
-            <Card key={item.id} type="journey" data={item} />
-          ))}
-        </CardWrapper>
-      </section>
-    </>
-  )
-}*/
 

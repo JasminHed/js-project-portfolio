@@ -3,17 +3,22 @@ import styled from "styled-components"
 import CardImage from "./Cardimage"
 import { ButtonGroup, PrimaryButton, SecondaryButton } from "./Button"
 
-const CardWrapper = styled.article`
+const CardSection = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
   padding: 16px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+
+   @media (min-width: 1024px) and (max-width: 1600px) {
+  margin-bottom: 25px;
+  }
 
   h3 {
     margin-bottom: 8px;
+    margin-top: 10px;
     color: var(--color-text);
   }
 
@@ -29,7 +34,7 @@ const CardWrapper = styled.article`
 
 const Card = ({ type, data }) => {
   return (
-    <CardWrapper>
+    <CardSection>
       <CardImage src={data.image} alt={data.name} 
         width={data.width}
         height={data.height}     
@@ -73,7 +78,7 @@ const Card = ({ type, data }) => {
           </ButtonGroup>
         </>
       )}
-    </CardWrapper>
+    </CardSection>
   )
 }
 

@@ -44,7 +44,7 @@ main {
   font-family: var(--font-heading);
   font-size: 24px;
   text-align:center;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
   
 
@@ -65,7 +65,7 @@ a {
 
 &:hover { 
   text-decoration: underline;
-  color: var(--color-secondary);
+  color: var(--color-text);
 }
 
 

@@ -8,6 +8,10 @@ const SectionWrapper = styled.section`
   width: 100%;
   max-width: 100vw;
   gap: 32px;
+
+  @media (min-width: 1024px) and (max-width: 1600px) {
+  margin-bottom: 15px;
+  }
 `
 const SkillsContent = styled.div`
   display: flex;

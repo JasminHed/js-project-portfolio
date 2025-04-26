@@ -21,7 +21,7 @@ const FooterWrapper = styled.footer`
 
   @media (min-width: 1024px) {
     padding: 64px 128px 128px 128px;
-    margin-top: 15px;
+    margin-top: 80px;
   }
 `
 
