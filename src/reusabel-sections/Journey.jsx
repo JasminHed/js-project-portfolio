@@ -6,17 +6,16 @@ import DesktopCarousel from "../components/DesktopCarousel.jsx"
 import styled from "styled-components"
 
 const Journey = () => {
-  const limitedJourney = journeyData.journey.slice(0, 2)
   return (
     <section>
       <h2>Journey</h2>
       
      
       <CardWrapper>
-        {limitedJourney.map((item) => (
-          <Card key={item.id} type="journey" data={item} />
-        ))}
-      </CardWrapper>
+  {journeyData.journey.map((item) => (
+    <Card key={item.id} type="journey" data={item} />
+  ))}
+</CardWrapper>
       
       
       <DesktopCarousel>

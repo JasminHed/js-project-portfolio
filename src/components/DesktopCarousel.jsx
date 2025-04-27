@@ -1,81 +1,156 @@
-import React, { useState } from "react"
+import React, { useState, useRef, useEffect } from "react"
 import styled from "styled-components"
 
 const CarouselContainer = styled.div`
-  display: none; //Not showin on small screens
-  overflow: hidden; 
+  display: none;
+  position: relative;
+  margin: 2rem 0;
   
   @media (min-width: 1024px) {
     display: block;
   }
 `
 
-// Animation
-const SlideContainer = styled.div`
+const CarouselTrack = styled.div`
   display: flex;
-  transition: transform 0.5s ease-in-out; // Softer transition
-  transform: translateX(-${props => props.currentCard * 100}%);
+  padding: 0.5rem 0;
+  transition: transform 0.5s ease;
+  transform: translateX(${props => props.$offset}px);
 `
 
-// Renamed from Card to CardGroup to avoid name conflict
-const CardGroup = styled.div`
-  flex: 0 0 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+const CarouselItem = styled.div`
+  flex: 0 0 auto;
+  width: calc(33.33% - 1.5rem);
+  margin-right: 1.5rem;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 `
 
-const Dots = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
-`
-//Styling the dots
-const DotButton = styled.button`
-  width: 15px;
-  height: 15px;
-  gap: 25px;
-  border-radius: 50%;
-  background-color: ${props => props.isActive ? 'var(--color-primary)' : '#ccc'};
-  margin: 0 5px;
+const NavButton = styled.button`
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
   border: none;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  transition: background-color 0.3s ease; // Soft transition
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  ${CarouselContainer}:hover & {
+    opacity: 1;
+  }
+
+  &:disabled {
+    opacity: 0;
+    cursor: default;
+  }
+`
+
+const PrevButton = styled(NavButton)`
+  left: 16px;
+`
+
+const NextButton = styled(NavButton)`
+  right: 16px;
 `
 
 const DesktopCarousel = ({ children }) => {
-  const [currentCard, setCurrentCard] = useState(0)
+  const [offset, setOffset] = useState(0)
+  const [canScrollLeft, setCanScrollLeft] = useState(false)
+  const [canScrollRight, setCanScrollRight] = useState(true)
   
-  const childrenArray = React.Children.toArray(children)
-  const cards = [] 
+  const containerRef = useRef(null)
+  const trackRef = useRef(null)
   
-  for (let i = 0; i < childrenArray.length; i += 3) {
-    cards.push(childrenArray.slice(i, i + 3))
+  // How many cards should show and distance between them
+  const calculateBounds = () => {
+    if (!containerRef.current || !trackRef.current) return
+    
+    const containerWidth = containerRef.current.clientWidth
+    const trackWidth = trackRef.current.scrollWidth
+    
+    setCanScrollLeft(offset < 0)
+    setCanScrollRight(offset > -(trackWidth - containerWidth))
+  }
+  
+  useEffect(() => {
+    calculateBounds();
+    window.addEventListener('resize', calculateBounds)
+    return () => window.removeEventListener('resize', calculateBounds)
+  }, [offset])
+  
+  const handleNext = () => {
+    if (!containerRef.current) return
+    
+    const containerWidth = containerRef.current.clientWidth
+    const scrollAmount = containerWidth * 0.66
+    
+    setOffset(prevOffset => {
+      const newOffset = prevOffset - scrollAmount
+      const trackWidth = trackRef.current.scrollWidth
+      const maxOffset = -(trackWidth - containerWidth)
+      
+      return Math.max(newOffset, maxOffset)
+    })
+  }
+  
+  const handlePrev = () => {
+    if (!containerRef.current) return
+    
+    const containerWidth = containerRef.current.clientWidth
+    const scrollAmount = containerWidth * 0.66
+    
+    setOffset(prevOffset => {
+      const newOffset = prevOffset + scrollAmount
+      return Math.min(newOffset, 0)
+    })
   }
   
   return (
-    <CarouselContainer>
-      <SlideContainer currentCard={currentCard}>
-        {cards.map((cardItems, index) => (
-          <CardGroup key={index}>
-            {cardItems}
-          </CardGroup>
-        ))}
-      </SlideContainer>
+    <CarouselContainer ref={containerRef}>
+      <PrevButton 
+        onClick={handlePrev} 
+        disabled={!canScrollLeft}
+        aria-label="Föregående objekt"
+      >
+        &lt;
+      </PrevButton>
       
-      <Dots>
-        {cards.map((_, index) => (
-          <DotButton 
-            key={index}
-            isActive={index === currentCard}
-            onClick={() => setCurrentCard(index)}
-            aria-label={`Show card ${index + 1}`}
-          />
+      <CarouselTrack ref={trackRef} $offset={offset}>
+        {React.Children.map(children, (child, index) => (
+          <CarouselItem key={index}>
+            {child}
+          </CarouselItem>
         ))}
-      </Dots>
+      </CarouselTrack>
+      
+      <NextButton 
+        onClick={handleNext} 
+        disabled={!canScrollRight}
+        aria-label="Nästa objekt"
+      >
+        &gt;
+      </NextButton>
     </CarouselContainer>
   )
 }
 
 export default DesktopCarousel
+
+
+
+
+
+
+

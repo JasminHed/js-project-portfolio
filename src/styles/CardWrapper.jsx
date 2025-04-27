@@ -7,6 +7,7 @@ const CardWrapper = styled.section`
   gap: 24px;
   margin-bottom: 10px;
 
+
   @media (min-width: 668px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

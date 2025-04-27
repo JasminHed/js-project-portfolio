@@ -57,7 +57,7 @@
       "github": "https://github.com/JasminHed/newjs-project-weather-app"
     },
     {
-      "id": "2",
+      "id": "4",
       "name": "Accessibility Quiz",
       "image": "/assets/Access-optimized.webp",
       "description": "An interactive educational quiz on accessibility. Followed design from Figma",
@@ -77,7 +77,7 @@
       "github": "https://github.com/JasminHed/project-accessibility"
     },
     {
-      "id": "3",
+      "id": "5",
       "name": "Daily Health",
       "image": "/assets/DailyHealth-optimized.webp",
       "description": "An interactive application that is based on the user being interactive to get a daily health tip. Own project and design. Ongoing project.",

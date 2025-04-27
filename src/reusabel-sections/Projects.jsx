@@ -6,17 +6,16 @@ import DesktopCarousel from "../components/DesktopCarousel"
 import styled from "styled-components"
 
 const Project = () => {
-  const limitedProjects = projectData.projects.slice(0, 2)
   return (
     <section>
       <h2>Projects</h2>
       
      
       <CardWrapper>
-        {limitedProjects.map((item) => (
-          <Card key={item.id} type="project" data={item} />
-        ))}
-      </CardWrapper>
+  {projectData.projects.map((item) => (
+    <Card key={item.id} type="project" data={item} />
+  ))}
+</CardWrapper>
       
       
       <DesktopCarousel>
