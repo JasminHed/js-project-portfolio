@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react"
 import styled from "styled-components"
 
+// Creating the basic container
 const CarouselContainer = styled.div`
   display: none;
   position: relative;
@@ -10,14 +11,14 @@ const CarouselContainer = styled.div`
     display: block;
   }
 `
-
+//Display in a row w. smoot transition
 const CarouselTrack = styled.div`
   display: flex;
   padding: 0.5rem 0;
   transition: transform 0.5s ease;
   transform: translateX(${props => props.$offset}px);
 `
-
+// Creates same size on all, when hoover lifts a bit
 const CarouselItem = styled.div`
   flex: 0 0 auto;
   width: calc(33.33% - 1.5rem);
@@ -28,7 +29,7 @@ const CarouselItem = styled.div`
     transform: scale(1.02);
   }
 `
-
+// Button that only appears when hovered
 const NavButton = styled.button`
   position: absolute;
   top: 50%;
@@ -64,7 +65,7 @@ const PrevButton = styled(NavButton)`
 const NextButton = styled(NavButton)`
   right: 16px;
 `
-
+//Scroll position, can users scroll right or left
 const DesktopCarousel = ({ children }) => {
   const [offset, setOffset] = useState(0)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
@@ -84,6 +85,7 @@ const DesktopCarousel = ({ children }) => {
     setCanScrollRight(offset > -(trackWidth - containerWidth))
   }
   
+  // Space of each card, what should be shown
   useEffect(() => {
     calculateBounds();
     window.addEventListener('resize', calculateBounds)
@@ -122,7 +124,7 @@ const DesktopCarousel = ({ children }) => {
       <PrevButton 
         onClick={handlePrev} 
         disabled={!canScrollLeft}
-        aria-label="Föregående objekt"
+        aria-label="Previous"
       >
         &lt;
       </PrevButton>
@@ -138,7 +140,7 @@ const DesktopCarousel = ({ children }) => {
       <NextButton 
         onClick={handleNext} 
         disabled={!canScrollRight}
-        aria-label="Nästa objekt"
+        aria-label="Next"
       >
         &gt;
       </NextButton>
