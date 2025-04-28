@@ -36,7 +36,7 @@ const NavButton = styled.button`
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(120, 100, 140, 0.6);
   border: none;
   border-radius: 50%;
   color: white;

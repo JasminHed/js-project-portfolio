@@ -49,27 +49,16 @@ const Hero = () => {
         <h2>Web Developer</h2>
         <p>
           Hi there 👋🏼 I'm a web developer with a solid tech toolkit of
-          JavaScript, TypeScript, React, Node.js, HTML and CSS – and a
-          human-centered mindset.
+          JavaScript, TypeScript, React, Node.js, HTML, CSS – and Wordpress.
         </p>{" "}
         <p>
-          My background in recruitment, HR and freelance health work has
-          equipped me with solid experience in project management, structure and
-          organization.
+        My background in HR and freelance health work has equipped me with strong skills in project management and workflow structuring, always with a focus on people.
         </p>
         <p>
-          I've collaborated with clients and colleagues from diverse
-          backgrounds, navigated various digital systems, streamlined routines
-          and improved workflows.
+        I have collaborated with clients and colleagues from diverse backgrounds and successfully navigated a variety of digital systems.
         </p>
         <p>
-          I've also worked closely with a tech team to communicate user feedback
-          and enhance internal processes.
-        </p>
-        <p>
-          My interest in AI led me to the tech world, where I then was drawn to
-          its flexibility, inclusivity and creative freedom – a space where my
-          experience can add value.
+        It was through my hands-on experience managing websites with WordPress and working with social media, that sparked my interest in further developing my skills in web development. I am drawn to the tech world for its flexibility, inclusivity and creative freedom. 
         </p>
         <SocialIcons>
           <a
