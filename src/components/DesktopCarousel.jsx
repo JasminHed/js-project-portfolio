@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react"
 import styled from "styled-components"
 
-// Creating the basic container
+// Creating a box called CarouselContainer.Shows/hides the cards. 
 const CarouselContainer = styled.div`
   display: none;
   position: relative;
@@ -11,14 +11,14 @@ const CarouselContainer = styled.div`
     display: block;
   }
 `
-//Display in a row w. smoot transition
+//Creates another box called CarouselTrack.Why? We need another box to hold and slide all the items inside the main box. This moves the cards.
 const CarouselTrack = styled.div`
   display: flex;
   padding: 0.5rem 0;
   transition: transform 0.5s ease;
   transform: translateX(${props => props.$offset}px);
 `
-// Creates same size on all, when hoover lifts a bit
+// Makes so the cards fit three in a row.
 const CarouselItem = styled.div`
   flex: 0 0 auto;
   width: calc(33.33% - 1.5rem);
@@ -29,7 +29,7 @@ const CarouselItem = styled.div`
     transform: scale(1.02);
   }
 `
-// Button that only appears when hovered
+// Round arrow button that only appears when hovered
 const NavButton = styled.button`
   position: absolute;
   top: 50%;
@@ -65,7 +65,7 @@ const PrevButton = styled(NavButton)`
 const NextButton = styled(NavButton)`
   right: 16px;
 `
-//Scroll position, can users scroll right or left
+//Creates the carousel machine. useState = memory, useRef = finger pointer (built-in)
 const DesktopCarousel = ({ children }) => {
   const [offset, setOffset] = useState(0)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
@@ -74,24 +74,25 @@ const DesktopCarousel = ({ children }) => {
   const containerRef = useRef(null)
   const trackRef = useRef(null)
   
-  // How many cards should show and distance between them
-  const calculateBounds = () => {
+  // The function TOOL that does the measuring of the cards to see if....
+  const calculateBounds = () => { //function
     if (!containerRef.current || !trackRef.current) return
     
-    const containerWidth = containerRef.current.clientWidth
+    const containerWidth = containerRef.current.clientWidth //fingerpointer and sizes
     const trackWidth = trackRef.current.scrollWidth
     
-    setCanScrollLeft(offset < 0)
+    setCanScrollLeft(offset < 0) //number to remember
     setCanScrollRight(offset > -(trackWidth - containerWidth))
   }
   
-  // Space of each card, what should be shown
+  // the function TOOL that calls the above tool at the right time to make sure we can scroll right and left
   useEffect(() => {
     calculateBounds();
     window.addEventListener('resize', calculateBounds)
     return () => window.removeEventListener('resize', calculateBounds)
   }, [offset])
   
+  //Function that slides the cards enough, not past their capability - LEFT
   const handleNext = () => {
     if (!containerRef.current) return
     
@@ -107,6 +108,7 @@ const DesktopCarousel = ({ children }) => {
     })
   }
   
+  //Function that slides the cards enough, not past their capability - RIGHT
   const handlePrev = () => {
     if (!containerRef.current) return
     
