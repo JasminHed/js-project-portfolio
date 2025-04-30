@@ -56,9 +56,9 @@ const Skills = () => {
       <SkillsContent>
         <SkillsText>
           <h3>Code</h3>
-          <p>Javascript, ES6</p>
           <p>React</p>
           <p>Typescript</p>
+          <p>Javascript, ES6</p>
           <p>HTML</p>
           <p>CSS</p>
         </SkillsText>
@@ -73,6 +73,8 @@ const Skills = () => {
           <p>VS Code</p>
           <p>Github</p>
           <p>Wordpress</p>
+          <p>Teamtailor</p>
+          <p>Zendesk</p>
         </SkillsText>
 
         
@@ -80,6 +82,7 @@ const Skills = () => {
         <SkillsText>
           <h3>Upcoming</h3>
           <p>Node.js</p>
+          <p>MongoDB</p>
           <p>AI Prompting</p>
         </SkillsText>
 
@@ -87,9 +90,11 @@ const Skills = () => {
 
         <SkillsText>
           <h3>More</h3>
+          <p>People-centered</p>
+          <p>Strong communicator</p>
           <p>Resourceful</p>
           <p>Quick to adapt</p>
-          <p>Ownership</p>
+          <p>Ownership mindset</p>
           <p>Continious learner</p>
         </SkillsText>
       </SkillsContent>

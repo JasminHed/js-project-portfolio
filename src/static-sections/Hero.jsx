@@ -48,18 +48,26 @@ const Hero = () => {
         <h1>I am Jasmin Hedlund</h1>
         <h2>Web Developer</h2>
         <p>
-          Hi there 👋🏼 I'm a web developer with a solid tech toolkit of
-          JavaScript, TypeScript, React, Node.js, HTML, CSS – and Wordpress.
-        </p>{" "}
-        <p>
-        My background in HR and freelance health work has equipped me with strong skills in project management and workflow structuring, always with a focus on people.
-        </p>
-        <p>
-        I have collaborated with clients and colleagues from diverse backgrounds and successfully navigated a variety of digital systems.
-        </p>
-        <p>
-        It was through my hands-on experience managing websites with WordPress and working with social media, that sparked my interest in further developing my skills in web development. I am drawn to the tech world for its flexibility, inclusivity and creative freedom. 
-        </p>
+  Hi there 👋🏼 I'm a web developer with a solid tech toolkit of
+  React, TypeScript, JavaScript, Node.js, HTML, CSS – and WordPress.
+</p>
+
+<p>
+  Before transitioning into tech, I worked in HR and recruitment — a field where I led recruitment projects, improved workflows, and implemented digital systems to streamline everyday processes. I’ve built routines from scratch, set up internal structures, and started a recruitment network to encourage knowledge sharing and collaboration.
+</p>
+
+<p>
+  In parallel, I ran my own business as a freelance health and yoga instructor. I managed clients, coordinated events, produced content, and handled both planning and communication. It taught me how to stay organized, work independently and adapt to different contexts.
+</p>
+
+<p>
+Understanding human behavior is a core part of how I work. My time in people-focused roles has sharpened my ability to adapt quickly, stay proactive, and work well with all kinds of people – whether in a team or with clients.
+</p>
+
+<p>
+  AI and automation were what first sparked my interest in tech. I was then drawn to the tech world for its flexibility, inclusivity, and creative freedom.
+</p>
+
         <SocialIcons>
           <a
             href="https://github.com/JasminHed"
