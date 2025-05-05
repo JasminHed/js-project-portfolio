@@ -95,6 +95,26 @@
       ],
       "netlify": "https://dailyhealthjh.netlify.app/",
       "github": "https://github.com/JasminHed/dailyhealth"
+    },
+    {
+      "id": "6",
+      "name": "Happy Thoughts App",
+      "image": "/assets/Happythoughts.webp",
+      "description": "An interactive application that is based on text messages, like buttons and real time stamps.Following a design. Ongoing project.",
+      "languages": [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "React"
+      ],
+      "features": [
+        "Flexbox",
+        "State and hook",
+        "Responsive Design",
+        "Accessibility"
+      ],
+      "netlify": "https://happy-thoughtsapp.netlify.app/",
+      "github": "https://github.com/JasminHed/js-project-happy-thoughts"
     }
   ]
 }

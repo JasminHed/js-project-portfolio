@@ -75,7 +75,7 @@ const DesktopCarousel = ({ children }) => {
   const trackRef = useRef(null)
   
   // The function TOOL that does the measuring of the cards to see if....
-  const calculateBounds = () => { //function
+  const checkLimits = () => { //function
     if (!containerRef.current || !trackRef.current) return
     
     const containerWidth = containerRef.current.clientWidth //fingerpointer and sizes
@@ -87,9 +87,9 @@ const DesktopCarousel = ({ children }) => {
   
   // the function TOOL that calls the above tool at the right time to make sure we can scroll right and left
   useEffect(() => {
-    calculateBounds();
-    window.addEventListener('resize', calculateBounds)
-    return () => window.removeEventListener('resize', calculateBounds)
+    checkLimits();
+    window.addEventListener('resize', checkLimits)
+    return () => window.removeEventListener('resize', checkLimits)
   }, [offset])
   
   //Function that slides the cards enough, not past their capability - LEFT
