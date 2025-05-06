@@ -27,6 +27,13 @@
       "image": "/assets/Celebration-optimized.webp",
       "description": "Two full weeks of React ahead.",
       "readarticle": "https://medium.com/@jasminhedlund/career-week-just-kicked-off-at-technigo-and-with-that-weve-also-started-planning-and-building-752c430ecb82"
+    },
+    {
+      "id": "5",
+      "name": "First freelance project",
+      "image": "/assets/Freelance.webp",
+      "description": "Accessibility at Unga Allergiker.",
+      "readarticle": "https://medium.com/@jasminhedlund/first-freelance-project-605b49acb0d3"
     }
 
   ]
