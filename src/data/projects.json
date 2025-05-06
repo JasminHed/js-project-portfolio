@@ -49,7 +49,8 @@
         "Typescript"
       ],
       "features": [
-        "API","Local Storage",
+        "API",
+        "Local Storage",
         "Search Functionality",
         "Responsive Design"
       ],
@@ -63,7 +64,7 @@
       "description": "An interactive educational quiz on accessibility. Followed design from Figma",
       "languages": [
         "HTML5",
-        "CSS3",
+        "CSS",
         "JavaScript"
       ],
       "features": [
@@ -71,7 +72,8 @@
         "Compatibility",
         "Keyboard Navigation",
         "WCAG Compliance",
-        "High Contrast Options"
+        "High Contrast Options",
+        "Responsive design"
       ],
       "netlify": "https://accessquiz.netlify.app/",
       "github": "https://github.com/JasminHed/project-accessibility"
@@ -80,7 +82,7 @@
       "id": "5",
       "name": "Daily Health",
       "image": "/assets/DailyHealth-optimized.webp",
-      "description": "An interactive application that is based on the user being interactive to get a daily health tip. Own project and design. Ongoing project.",
+      "description": "An interactive application that is based on the user being choosing their state of mind to get a daily healthy tip on yoga, meditation and more. Own project and design. Ongoing project.",
       "languages": [
         "HTML5",
         "CSS",
@@ -91,30 +93,10 @@
         "Grid",
         "Responsive Design",
         "Accessibility",
-        "AI"
+        "Generative AI"
       ],
       "netlify": "https://dailyhealthjh.netlify.app/",
       "github": "https://github.com/JasminHed/dailyhealth"
-    },
-    {
-      "id": "6",
-      "name": "Happy Thoughts App",
-      "image": "/assets/Happythoughts.webp",
-      "description": "An interactive application that is based on text messages, like buttons and real time stamps.Following a design. Ongoing project.",
-      "languages": [
-        "HTML5",
-        "CSS",
-        "JavaScript",
-        "React"
-      ],
-      "features": [
-        "Flexbox",
-        "State and hook",
-        "Responsive Design",
-        "Accessibility"
-      ],
-      "netlify": "https://happy-thoughtsapp.netlify.app/",
-      "github": "https://github.com/JasminHed/js-project-happy-thoughts"
     }
   ]
 }

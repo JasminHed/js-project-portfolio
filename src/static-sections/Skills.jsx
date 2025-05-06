@@ -91,7 +91,6 @@ const Skills = () => {
         <SkillsText>
           <h3>More</h3>
           <p>People-centered</p>
-          <p>Strong communicator</p>
           <p>Resourceful</p>
           <p>Quick to adapt</p>
           <p>Ownership mindset</p>

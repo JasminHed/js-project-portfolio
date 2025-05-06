@@ -48,7 +48,7 @@ const Hero = () => {
         <h1>I am Jasmin Hedlund</h1>
         <h2>Web Developer</h2>
         <p>
-  Hi there 👋🏼 I'm a web developer with a solid tech toolkit of
+  Hello there, I'm a web developer with a solid tech toolkit of
   React, TypeScript, JavaScript, Node.js, HTML, CSS – and WordPress.
 </p>
 
@@ -65,7 +65,7 @@ Understanding human behavior is a core part of how I work. My time in people-foc
 </p>
 
 <p>
-  AI and automation were what first sparked my interest in tech. I was then drawn to the tech world for its flexibility, inclusivity, and creative freedom.
+  AI were what first sparked my interest in tech. I was then drawn to the tech world for its flexibility, inclusivity, and creative freedom.
 </p>
 
         <SocialIcons>
