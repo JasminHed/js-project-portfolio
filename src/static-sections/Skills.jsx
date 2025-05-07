@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
@@ -10,7 +11,7 @@ const SectionWrapper = styled.section`
   gap: 32px;
 
   @media (min-width: 1024px) and (max-width: 1600px) {
-  margin-bottom: 15px;
+  margin-bottom: 64px;
   }
 `
 const SkillsContent = styled.div`

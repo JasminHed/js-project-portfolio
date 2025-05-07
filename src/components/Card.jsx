@@ -10,10 +10,11 @@ const CardSection = styled.article`
   height: 100%;
   padding: 16px;
   border-radius: 8px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-   @media (min-width: 1024px) and (max-width: 1600px) {
-  margin-bottom: 25px;
+
+  @media (min-width: 1024px) and (max-width: 1600px) {
+   margin-bottom: 25px;
   }
 
   h3 {

@@ -15,10 +15,13 @@ const CardWrapper = styled.section`
     margin-bottom: 15px;
   }
 
-  //Do not show on desktop
-  @media (min-width: 1024px) {
-    display: none;
-  }
+@media (min-width: 1024px) and (max-width: 1600px) {
+  display: none;
+}
+
+
+
+  
 `
 
  

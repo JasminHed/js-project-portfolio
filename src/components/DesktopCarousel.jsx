@@ -6,24 +6,33 @@ const CarouselContainer = styled.div`
   display: none;
   position: relative;
   margin: 2rem 0;
+  overflow: hidden;
   
-  @media (min-width: 1024px) {
+  
+  @media (min-width: 1024px) and (max-width: 1600px) {
     display: block;
+
   }
+    @media (min-width: 1601px) {
+    display: block;
+}
+
 `
-//Creates another box called CarouselTrack.Why? We need another box to hold and slide all the items inside the main box. This moves the cards.
+
 const CarouselTrack = styled.div`
   display: flex;
+  gap: 32px;
   padding: 0.5rem 0;
   transition: transform 0.5s ease;
   transform: translateX(${props => props.$offset}px);
+ 
+
 `
 // Makes so the cards fit three in a row.
 const CarouselItem = styled.div`
-  flex: 0 0 auto;
-  width: calc(33.33% - 1.5rem);
-  margin-right: 1.5rem;
+  flex: 0 0 376px;
   transition: transform 0.3s ease;
+
 
   &:hover {
     transform: scale(1.02);

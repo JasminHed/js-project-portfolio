@@ -11,7 +11,7 @@ const Journey = () => {
       <h2>Journey</h2>
       
      
-      <CardWrapper>
+<CardWrapper>
   {journeyData.journey.map((item) => (
     <Card key={item.id} type="journey" data={item} />
   ))}

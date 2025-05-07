@@ -21,6 +21,7 @@ main {
   display: flex;            
   flex-direction: column;   
 }
+
   body {
     margin: 0;
     font-family: var(--font-body);
@@ -87,16 +88,24 @@ a {
 
   @media (min-width: 1024px) and (max-width: 1600px) {
     h1 {
-      font-size: 60px;
+      font-size: 80px;
     }
 
     h2 {
-      font-size: 40px;
+      font-size: 65px;
     }
 
     h3 {
     font-size: 22px;
   }
+
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-inline: 24px;
+  }
+}
+
 
    
   }
