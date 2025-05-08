@@ -7,10 +7,13 @@ const CarouselContainer = styled.div`
   position: relative;
   margin: 2rem 0;
   overflow: hidden;
+  margin-bottom: 64px;
   
   
   @media (min-width: 1024px) and (max-width: 1600px) {
     display: block;
+    margin-bottom: 64px;
+    
 
   }
     @media (min-width: 1601px) {

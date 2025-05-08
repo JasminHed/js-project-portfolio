@@ -8,18 +8,21 @@ const HeroWrapper = styled.section`
   width: 100%;
   max-width: 100vw;
   margin-top: 20px;
+  margin-bottom: 64px;
 
   @media (min-width: 668px) {
     flex-direction: row;
     justify-content: space-between;
     padding: 80px;
     gap: 40px;
+    margin-bottom: 64px;
   }
 
   @media (min-width: 1024px) and (max-width: 1600px) {
     padding: 128px;
     gap: 64px;
     max-width: 1280px;
+    margin-bottom: 64px;
   }
 `
 const HeroContent = styled.div`

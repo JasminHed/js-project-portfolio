@@ -11,6 +11,7 @@ const FooterWrapper = styled.footer`
   background-color: #d3c7df;
   width: 100%;
   max-width: 100vw;
+ 
 
   @media (min-width: 668px) {
     padding: 64px;
