@@ -47,7 +47,7 @@ const SkillsText = styled.div`
   display: flex;
   flex-direction: column;
   width: 45%;
-  min-width: 140px;
+  min-width: 130px;
   text-align: left;
 `
 

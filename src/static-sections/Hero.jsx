@@ -13,16 +13,16 @@ const HeroWrapper = styled.section`
   @media (min-width: 668px) {
     flex-direction: row;
     justify-content: space-between;
-    padding: 80px;
-    gap: 40px;
+    padding: 20px;
+    gap: 20px;
     margin-bottom: 64px;
   }
 
   @media (min-width: 1024px) and (max-width: 1600px) {
-    padding: 128px;
+    padding: 60px;
     gap: 64px;
     max-width: 1280px;
-    margin-bottom: 64px;
+    
   }
 `
 const HeroContent = styled.div`
@@ -57,7 +57,7 @@ const Hero = () => {
 </p>
 
 <p>
-  Before transitioning into tech, I worked in HR and recruitment — a field where I led recruitment projects, improved workflows, and implemented digital systems to streamline everyday processes. I’ve built routines from scratch, set up internal structures, and started a recruitment network to encourage knowledge sharing and collaboration.
+Before starting my journey in web development, I worked in HR and recruitment — a field where I led recruitment projects, improved workflows, and implemented digital systems to streamline everyday processes. I’ve built routines from scratch, set up internal structures, and started a recruitment network to encourage knowledge sharing and collaboration.
 </p>
 
 <p>
@@ -69,7 +69,7 @@ Understanding human behavior is a core part of how I work. My time in people-foc
 </p>
 
 <p>
-  AI were what first sparked my interest in tech. I was then drawn to the tech world for its flexibility, inclusivity, and creative freedom.
+My passion areas include purpose driven tech and digital accessibility. I am drawn to the web development field for its flexibility, inclusivity and creative freedom.
 </p>
 
         <SocialIcons>
