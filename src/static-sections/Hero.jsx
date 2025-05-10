@@ -28,6 +28,7 @@ const HeroWrapper = styled.section`
 const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
+  text-align: left;
   gap: 8px;
   padding: 16px;
 

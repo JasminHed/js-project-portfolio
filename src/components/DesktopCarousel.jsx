@@ -1,25 +1,19 @@
-import React, { useState, useRef, useEffect } from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 
-// Creating a box called CarouselContainer.Shows/hides the cards. 
-const CarouselContainer = styled.div`
+//main container that holds everything
+const CarouselContainer = styled.div` 
   display: none;
   position: relative;
   margin: 2rem 0;
   overflow: hidden;
-  margin-bottom: 64px;
-  
   
   @media (min-width: 1024px) and (max-width: 1600px) {
     display: block;
-    margin-bottom: 64px;
-    
-
   }
-    @media (min-width: 1601px) {
+  @media (min-width: 1601px) {
     display: block;
-}
-
+  }
 `
 
 const CarouselTrack = styled.div`
@@ -27,21 +21,18 @@ const CarouselTrack = styled.div`
   gap: 32px;
   padding: 0.5rem 0;
   transition: transform 0.5s ease;
-  transform: translateX(${props => props.$offset}px);
- 
-
+  transform: translateX(${props => props.$slide}px);
 `
-// Makes so the cards fit three in a row.
+
 const CarouselItem = styled.div`
   flex: 0 0 376px;
   transition: transform 0.3s ease;
-
 
   &:hover {
     transform: scale(1.02);
   }
 `
-// Round arrow button that only appears when hovered
+
 const NavButton = styled.button`
   position: absolute;
   top: 50%;
@@ -77,96 +68,52 @@ const PrevButton = styled(NavButton)`
 const NextButton = styled(NavButton)`
   right: 16px;
 `
-//Creates the carousel machine. useState = memory, useRef = finger pointer (built-in)
-const DesktopCarousel = ({ children }) => {
-  const [offset, setOffset] = useState(0)
-  const [canScrollLeft, setCanScrollLeft] = useState(false)
-  const [canScrollRight, setCanScrollRight] = useState(true)
+
+const DesktopCarousel = ({children}) => {
+  const [activeChild, setActiveChild] = useState(0) //shows first visible child=card
   
-  const containerRef = useRef(null)
-  const trackRef = useRef(null)
+  const childCount = React.Children.count(children) //counts total number of children/cards
+  const maxChild = Math.max(0, childCount - 3) //boundary fewer than 3 children/cards
   
-  // The function TOOL that does the measuring of the cards to see if....
-  const checkLimits = () => { //function
-    if (!containerRef.current || !trackRef.current) return
-    
-    const containerWidth = containerRef.current.clientWidth //fingerpointer and sizes
-    const trackWidth = trackRef.current.scrollWidth
-    
-    setCanScrollLeft(offset < 0) //number to remember
-    setCanScrollRight(offset > -(trackWidth - containerWidth))
-  }
-  
-  // the function TOOL that calls the above tool at the right time to make sure we can scroll right and left
-  useEffect(() => {
-    checkLimits();
-    window.addEventListener('resize', checkLimits)
-    return () => window.removeEventListener('resize', checkLimits)
-  }, [offset])
-  
-  //Function that slides the cards enough, not past their capability - LEFT
   const handleNext = () => {
-    if (!containerRef.current) return
-    
-    const containerWidth = containerRef.current.clientWidth
-    const scrollAmount = containerWidth * 0.66
-    
-    setOffset(prevOffset => {
-      const newOffset = prevOffset - scrollAmount
-      const trackWidth = trackRef.current.scrollWidth
-      const maxOffset = -(trackWidth - containerWidth)
-      
-      return Math.max(newOffset, maxOffset)
-    })
+    setActiveChild(prev => Math.min(prev + 1, maxChild)) //1 forward + stop at max
   }
   
-  //Function that slides the cards enough, not past their capability - RIGHT
   const handlePrev = () => {
-    if (!containerRef.current) return
-    
-    const containerWidth = containerRef.current.clientWidth
-    const scrollAmount = containerWidth * 0.66
-    
-    setOffset(prevOffset => {
-      const newOffset = prevOffset + scrollAmount
-      return Math.min(newOffset, 0)
-    })
+    setActiveChild(prev => Math.max(prev - 1, 0)) //1 backward + stop max
   }
+  
+  const slide = activeChild * -408 //slide exact measure of card/child
   
   return (
-    <CarouselContainer ref={containerRef}>
+    <CarouselContainer>
       <PrevButton 
         onClick={handlePrev} 
-        disabled={!canScrollLeft}
+        disabled={activeChild === 0} //disabel prev.button
         aria-label="Previous"
       >
-        &lt;
+        ←
       </PrevButton>
       
-      <CarouselTrack ref={trackRef} $offset={offset}>
-        {React.Children.map(children, (child, index) => (
-          <CarouselItem key={index}>
-            {child}
+      <CarouselTrack $slide={slide}>
+        {React.Children.map(children, (child, index) => ( //maps each child into carousel item
+          <CarouselItem key={index}> 
+          {/*Individual card container with set width and hover effect*/}
+            {child} //The actual content of each card
           </CarouselItem>
         ))}
       </CarouselTrack>
       
       <NextButton 
         onClick={handleNext} 
-        disabled={!canScrollRight}
+        disabled={activeChild === maxChild} //disabel next.button
         aria-label="Next"
       >
-        &gt;
+        →
       </NextButton>
     </CarouselContainer>
   )
 }
 
 export default DesktopCarousel
-
-
-
-
-
-
 
