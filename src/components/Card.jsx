@@ -59,8 +59,8 @@ const Card = ({ type, data }) => {
 
       {type === "project" && (
         <>
-          <p>Languages: {data.languages.join(", ")}</p>
-          <p>Features: {data.features.join(", ")}</p>
+          <p><strong>Languages:</strong> {data.languages.join(", ")}</p>
+          <p><strong>Features:</strong> {data.features.join(", ")}</p>
           <ButtonGroup>
             <PrimaryButton
               href={data.netlify}

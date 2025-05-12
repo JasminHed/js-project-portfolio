@@ -11,11 +11,11 @@ const Project = () => {
       <h2>Projects</h2>
       
      
-      <CardWrapper>
+  <CardWrapper>
   {projectData.projects.map((item) => (
-    <Card key={item.id} type="project" data={item} />
+  <Card key={item.id} type="project" data={item} />
   ))}
-</CardWrapper>
+  </CardWrapper>
       
       
       <DesktopCarousel>

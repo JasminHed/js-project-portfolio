@@ -11,9 +11,7 @@ const CarouselContainer = styled.div`
   @media (min-width: 1024px) and (max-width: 1600px) {
     display: block;
   }
-  @media (min-width: 1601px) {
-    display: block;
-  }
+
 `
 
 const CarouselTrack = styled.div`
