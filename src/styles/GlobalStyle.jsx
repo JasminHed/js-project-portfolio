@@ -19,7 +19,8 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;       
     padding-inline: 16px;    
     display: flex;            
-    flex-direction: column;   
+    flex-direction: column;  
+    margin: 0 auto; 
   }
 
   body {
@@ -82,7 +83,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  @media (min-width: 1024px) and (max-width: 1600px) {
+  @media (min-width: 1024px) {
     h1 {
       font-size: 80px;
     }
@@ -96,7 +97,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     main {
-      max-width: 1280px;
+      max-width: 1200px;
       margin: 0 auto;
       padding-inline: 24px;
     }

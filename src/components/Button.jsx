@@ -10,10 +10,10 @@ export const ButtonGroup = styled.div`
     flex-direction: row;
     gap: 8px;
   }
-`;
+`
 
 export const PrimaryButton = styled.a`
-  padding: 4px 4px;
+  padding: 6px 6px;
   text-decoration: none;
   border-radius: 4px;
   color: var(--color-text);
@@ -24,6 +24,7 @@ export const PrimaryButton = styled.a`
 
   @media (min-width: 668px) {
     font-size: 14px;
+    padding: 6px 8px;
   }
 
   @media (min-width: 1024px) {
@@ -33,7 +34,7 @@ export const PrimaryButton = styled.a`
 `
 
 export const SecondaryButton = styled.a`
-  padding: 4px 4px;
+  padding: 6px 6px;
   border: 2px solid var(--color-secondary);
   color: var(--color-text);
   text-decoration: none;
@@ -42,7 +43,7 @@ export const SecondaryButton = styled.a`
 
 
   @media (min-width: 668px) {
-    padding: 4px 4px;
+    padding: 6px 8px;
     font-size: 14px;
   }
 

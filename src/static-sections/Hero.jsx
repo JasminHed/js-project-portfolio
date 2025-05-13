@@ -6,7 +6,6 @@ const HeroWrapper = styled.section`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 100vw;
   margin-top: 20px;
   margin-bottom: 64px;
 
@@ -18,10 +17,9 @@ const HeroWrapper = styled.section`
     margin-bottom: 64px;
   }
 
-  @media (min-width: 1024px) and (max-width: 1600px) {
+  @media (min-width: 1024px) {
     padding: 60px;
     gap: 64px;
-    max-width: 1280px;
     
   }
 `

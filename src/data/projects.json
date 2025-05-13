@@ -97,6 +97,27 @@
       ],
       "netlify": "https://dailyhealthjh.netlify.app/",
       "github": "https://github.com/JasminHed/dailyhealth"
+    },
+    {
+      "id": "6",
+      "name": "Happy Thoughts",
+      "image": "/assets/HappyThoughts.png",
+      "description": "An interactive application that lets users send messages and also fetch messages from API, it becomes a friendly message application of happy thoughts and likes. Followed design.",
+      "languages": [
+        "HTML5",
+        "Styled components",
+        "React"
+      ],
+      "features": [
+        "Flexbox",
+        "Useffect",
+        "Responsive Design",
+        "Accessibility",
+        "UseState",
+        "API"
+      ],
+      "netlify": "https://happy-thoughtsapp.netlify.app/",
+      "github": "https://github.com/Technigo/js-project-happy-thoughts"
     }
   ]
 }

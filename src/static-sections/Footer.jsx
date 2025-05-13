@@ -9,8 +9,7 @@ const FooterWrapper = styled.footer`
   align-items: center;
   text-align: center;
   background-color: #d3c7df;
-  width: 100%;
-  max-width: 100vw;
+  width: 100vw;
  
 
   @media (min-width: 668px) {
@@ -32,6 +31,8 @@ const FooterContent = styled.div`
   align-items: center;
   gap: 32px;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 
   @media (min-width: 668px) {
     flex-direction: row;

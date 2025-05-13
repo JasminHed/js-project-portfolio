@@ -6,7 +6,8 @@ const CarouselContainer = styled.div`
   display: none;
   position: relative;
   margin: 2rem 0;
-  overflow: hidden;
+  overflow: visible;
+  width: 100%;
   
   @media (min-width: 1024px) and (max-width: 1600px) {
     display: block;
@@ -68,10 +69,10 @@ const NextButton = styled(NavButton)`
 `
 
 const DesktopCarousel = ({children}) => {
-  const [activeChild, setActiveChild] = useState(0) //shows first visible child=card
+  const [activeChild, setActiveChild] = useState(0) //shows first visible child
   
-  const childCount = React.Children.count(children) //counts total number of children/cards
-  const maxChild = Math.max(0, childCount - 3) //boundary fewer than 3 children/cards
+  const childCount = React.Children.count(children) //counts total number of children
+  const maxChild = Math.max(0, childCount - 3) //boundary fewer than 3 children
   
   const handleNext = () => {
     setActiveChild(prev => Math.min(prev + 1, maxChild)) //1 forward + stop at max
@@ -81,7 +82,7 @@ const DesktopCarousel = ({children}) => {
     setActiveChild(prev => Math.max(prev - 1, 0)) //1 backward + stop max
   }
   
-  const slide = activeChild * -408 //slide exact measure of card/child
+  const slide = activeChild * -408 //slide exact measure of child
   
   return (
     <CarouselContainer>
@@ -97,7 +98,7 @@ const DesktopCarousel = ({children}) => {
         {React.Children.map(children, (child, index) => ( //maps each child into carousel item
           <CarouselItem key={index}> 
           {/*Individual card container with set width and hover effect*/}
-            {child} //The actual content of each card
+            {child} 
           </CarouselItem>
         ))}
       </CarouselTrack>
