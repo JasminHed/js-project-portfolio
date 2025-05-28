@@ -22,7 +22,7 @@
       "id": "2",
       "name": "Recipe App",
       "image": "/assets/Recipe-optimized.webp",
-      "description": "An interactive recipe application with dynamic filtering options and nutritional information. Followed design on Figma",
+      "description": "An interactive recipe application with dynamic filtering options and nutritional information. Followed a set design.",
       "languages": [
         "HTML5",
         "CSS",
@@ -61,7 +61,7 @@
       "id": "4",
       "name": "Accessibility Quiz",
       "image": "/assets/Access-optimized.webp",
-      "description": "An interactive educational quiz on accessibility. Followed design from Figma",
+      "description": "An interactive educational quiz on accessibility. Followed a set design.",
       "languages": [
         "HTML5",
         "CSS",
@@ -102,7 +102,7 @@
       "id": "6",
       "name": "Happy Thoughts",
       "image": "/assets/HappyThoughts.png",
-      "description": "An interactive application that lets users send messages and also fetch messages from API, it becomes a friendly message application of happy thoughts and likes. Followed design.",
+      "description": "An interactive application that lets users send messages and also fetch messages from API, it becomes a friendly message application of happy thoughts and likes. Followed a set design.",
       "languages": [
         "HTML5",
         "Styled components",
@@ -110,14 +110,51 @@
       ],
       "features": [
         "Flexbox",
-        "Useffect",
         "Responsive Design",
         "Accessibility",
-        "UseState",
         "API"
       ],
       "netlify": "https://happy-thoughtsapp.netlify.app/",
       "github": "https://github.com/Technigo/js-project-happy-thoughts"
+    },
+    {
+      "id": "7",
+      "name": "Movie App",
+      "image": "/assets/Movieapp.png",
+      "description": "A movie app that shows 2 pages, one with all popular movies and one with movie details. Followed a set design",
+      "languages": [
+        "HTML5",
+        "Styled components",
+        "React"
+      ],
+      "features": [
+        "Flexbox",
+        "Grid",
+        "Responsive Design",
+        "UseState",
+        "API"
+      ],
+      "netlify": "https://movie-projectapp.netlify.app/",
+      "github": "https://github.com/JasminHed/js-project-movies"
+    },
+    {
+      "id": "8",
+      "name": "Todo App",
+      "image": "/assets/Todo.png",
+      "description": "A todo app that strucutures tasks, tags as well as notes. Uses form and grid. Designed so it is easy to add more features.",
+      "languages": [
+        "HTML5",
+        "Styled components",
+        "React"
+      ],
+      "features": [
+        "Flexbox",
+        "Grid",
+        "Responsive Design",
+        "Global state"
+      ],
+      "netlify": "https://todoapp-jh.netlify.app/",
+      "github": "https://github.com/JasminHed/js-project-todo"
     }
   ]
 }

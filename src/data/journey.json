@@ -34,6 +34,13 @@
       "image": "/assets/Freelance.webp",
       "description": "Accessibility at Unga Allergiker.",
       "readarticle": "https://medium.com/@jasminhedlund/first-freelance-project-605b49acb0d3"
+    },
+    {
+      "id": "6",
+      "name": "Update on Daily Health",
+      "image": "/assets/Health.webp",
+      "description": "Generative AI and health",
+      "readarticle": "https://medium.com/@jasminhedlund/daily-health-update-b952c243afab"
     }
 
   ]

@@ -18,9 +18,6 @@ const CardWrapper = styled.section`
 @media (min-width: 1024px) and (max-width: 1600px) {
   display: none;
 }
-
-
-
   
 `
 
