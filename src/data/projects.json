@@ -155,6 +155,25 @@
       ],
       "netlify": "https://todoapp-jh.netlify.app/",
       "github": "https://github.com/JasminHed/js-project-todo"
+    },
+    {
+      "id": "9",
+      "name": "Unga Allergiker – Accessible Website",
+      "image": "/assets/Ungaallergiker.png",
+      "description": "Accessibility-focused review and improvement of a WordPress website for Unga Allergiker. Evaluated SEO, performance and accessibility using Lighthouse, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Color contrasts and certain image choices could not be adjusted due to the organization's visual identity and decisions made by the board.",
+      "languages": [
+        "CSS",
+        "Javascript",
+        "Wordpress"
+      ],
+      "features": [
+        "WCAG compliance",
+        "Semantic HTML + ARIA",
+        "Keyboard navigation",
+        "Lighthouse analysis"
+      ],
+      "netlify": "www.ungaallergiker.se",
+      "github": ""
     }
   ]
 }
