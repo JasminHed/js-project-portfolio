@@ -179,7 +179,7 @@
       "id": "10",
       "name": "Fullstack API",
       "image": "/assets/Fullstack.png",
-      "description": "Fullstack happy thoughs project with own API and database.",
+      "description": "Fullstack happy thoughs project with own API, database and a sign up/log in form. Restricition to what a user can see if logged in or not logged in.",
       "languages": [
         "HTML5",
         "Styled components",
