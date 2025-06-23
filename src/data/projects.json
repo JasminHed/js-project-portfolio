@@ -179,7 +179,7 @@
       "id": "10",
       "name": "Fullstack API",
       "image": "/assets/Fullstack.png",
-      "description": "A clean and minimal to-do application that helps users stay organized by managing their tasks. Tasks can be added, tagged and marked as complete, and removed.",
+      "description": "Fullstack happy thoughs project with own API and database.",
       "languages": [
         "HTML5",
         "Styled components",
