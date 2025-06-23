@@ -41,6 +41,20 @@
       "image": "/assets/Health.webp",
       "description": "Generative AI and health",
       "readarticle": "https://medium.com/@jasminhedlund/daily-health-update-b952c243afab"
+    },
+    {
+      "id": "7",
+      "name": "Accessibility - 4 fixes",
+      "image": "/assets/Accessibility.webp",
+      "description": "Accessibility, start simple and effective.",
+      "readarticle": "https://medium.com/@jasminhedlund/accessibility-4-fixes-that-make-a-difference-a881743d99bc"
+    },
+    {
+      "id": "8",
+      "name": "Bootcamp coming to an end",
+      "image": "/assets/Journey.webp",
+      "description": "Reflections, tips and tricks.",
+      "readarticle": "https://medium.com/@jasminhedlund/six-months-a-thousand-commits-c264b73c4094"
     }
 
   ]
