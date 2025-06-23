@@ -174,6 +174,25 @@
       ],
       "netlify": "www.ungaallergiker.se",
       "github": ""
+    },
+    {
+      "id": "10",
+      "name": "To Do App",
+      "image": "/assets/HappyThoughts.png",
+      "description": "A clean and minimal to-do application that helps users stay organized by managing their tasks. Tasks can be added, tagged and marked as complete, and removed.",
+      "languages": [
+        "HTML5",
+        "Styled components",
+        "React"
+      ],
+      "features": [
+        "Add, remove, tag and complete tasks",
+        "LocalStorage persistence",
+        "Responsive design",
+        "Accessible UI"
+      ],
+      "netlify": "https://apifrontback.netlify.app/",
+      "github": "https://github.com/JasminHed/js-project-api"
     }
   ]
 }
