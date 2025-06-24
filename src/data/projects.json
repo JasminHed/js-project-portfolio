@@ -4,16 +4,17 @@
       "id": "1",
       "name": "Business site - Health by Jasmin",
       "image": "/assets/Business-optimized.webp",
-      "description": " A responsive & interactive business website for yoga and ayurveda. Own design.",
+      "description": " Fully responsive business site for yoga and ayurveda with custom UI/UX. Built from scratch using semantic HTML and modular CSS.",
       "languages": [
         "HTML5",
         "CSS",
         "JavaScript"
       ],
       "features": [
-        "Flexbox",
-        "Grid",
-        "Responsive Design"
+        "Semantic HTML",
+        "Flexbox layout",
+        "CSS Grid",
+        "Mobile-first responsive design"
       ],
       "netlify": "https://healthbyjasmin.netlify.app/",
       "github": "https://github.com/JasminHed/healthbyjasmin-project-business-site"
@@ -22,17 +23,17 @@
       "id": "2",
       "name": "Recipe App",
       "image": "/assets/Recipe-optimized.webp",
-      "description": "An interactive recipe application with dynamic filtering options and nutritional information. Followed a set design.",
+      "description": "Interactive recipe app with real-time search, category filtering, and nutritional data integration via external API. Built from a set design.",
       "languages": [
         "HTML5",
         "CSS",
         "JavaScript"
       ],
       "features": [
-        "API",
-        "Local Storage",
-        "Search Functionality",
-        "Responsive Design"
+        "RESTful API integration",
+        "LocalStorage for saved state",
+        "Search and filter functionality",
+        "Responsive layout"
       ],
       "netlify": "https://jrecipelibrary.netlify.app/",
       "github": "https://github.com/JasminHed/js-project-recipe"
@@ -41,7 +42,7 @@
       "id": "3",
       "name": "Weather App",
       "image": "assets/Weather-optimized.webp",
-      "description": "An interactive weather application with dynamic sorting options on capitals and weather",
+      "description": "TypeScript-based weather app fetching real-time data for European capitals. Built with dynamic sorting",
       "languages": [
         "HTML5",
         "CSS",
@@ -49,10 +50,10 @@
         "Typescript"
       ],
       "features": [
-        "API",
-        "Local Storage",
-        "Search Functionality",
-        "Responsive Design"
+        "OpenWeatherMap API",
+        "TypeScript for static typing",
+        "LocalStorage caching",
+        "Responsive design"
       ],
       "netlify": "https://nordicweatherapp.netlify.app/",
       "github": "https://github.com/JasminHed/newjs-project-weather-app"
@@ -61,19 +62,18 @@
       "id": "4",
       "name": "Accessibility Quiz",
       "image": "/assets/Access-optimized.webp",
-      "description": "An interactive educational quiz on accessibility. Followed a set design.",
+      "description": "Educational quiz focused on web accessibility. Emphasizes keyboard navigation, screen reader support, and WCAG compliance.",
       "languages": [
         "HTML5",
         "CSS",
         "JavaScript"
       ],
       "features": [
-        "Screen Reader",
-        "Compatibility",
-        "Keyboard Navigation",
-        "WCAG Compliance",
-        "High Contrast Options",
-        "Responsive design"
+        "Keyboard accessibility",
+        "Screen reader support",
+        "High-contrast toggle",
+        "Semantic HTML + ARIA",
+        "WCAG 2.1 compliance"
       ],
       "netlify": "https://accessquiz.netlify.app/",
       "github": "https://github.com/JasminHed/project-accessibility"
@@ -82,18 +82,18 @@
       "id": "5",
       "name": "Daily Health",
       "image": "/assets/DailyHealth-optimized.webp",
-      "description": "An interactive application that is based on the user being choosing their state of mind to get a daily healthy tip on yoga, meditation and more. Own project and design. Ongoing project.",
+      "description": "Wellness app offering daily yoga and mindfulness tips based on user's selected mood. Custom design and AI experimentation. Ongoing project.",
       "languages": [
         "HTML5",
         "CSS",
         "JavaScript"
       ],
       "features": [
-        "Flexbox",
-        "Grid",
-        "Responsive Design",
-        "Accessibility",
-        "Generative AI"
+        "Conditional rendering",
+        "Accessible layout",
+        "Flexbox & Grid",
+        "Experimental generative AI",
+        "Custom UI"
       ],
       "netlify": "https://dailyhealthjh.netlify.app/",
       "github": "https://github.com/JasminHed/dailyhealth"
@@ -102,17 +102,17 @@
       "id": "6",
       "name": "Happy Thoughts",
       "image": "/assets/HappyThoughts.png",
-      "description": "An interactive application that lets users send messages and also fetch messages from API, it becomes a friendly message application of happy thoughts and likes. Followed a set design.",
+      "description": "Microblog app allowing users to post and like happy thoughts. Uses React and external API for message handling. Based on a set design.",
       "languages": [
         "HTML5",
         "Styled components",
         "React"
       ],
       "features": [
-        "Flexbox",
-        "Responsive Design",
-        "Accessibility",
-        "API"
+        "REST API (GET/POST)",
+        "React hooks (useState, useEffect)",
+        "Responsive layout",
+        "Accessible design"
       ],
       "netlify": "https://happy-thoughtsapp.netlify.app/",
       "github": "https://github.com/Technigo/js-project-happy-thoughts"
@@ -121,18 +121,17 @@
       "id": "7",
       "name": "Movie App",
       "image": "/assets/Movieapp.png",
-      "description": "A movie app that shows 2 pages, one with all popular movies and one with movie details. Followed a set design",
+      "description": "Movie browser built in React showing popular titles and detailed info via routing. Uses component-based architecture and styled-components.",
       "languages": [
         "HTML5",
         "Styled components",
         "React"
       ],
       "features": [
-        "Flexbox",
-        "Grid",
-        "Responsive Design",
-        "UseState",
-        "API"
+        "React Router for navigation",
+        "useState + API integration",
+        "Styled-components",
+        "Flexbox & Grid layout"
       ],
       "netlify": "https://movie-projectapp.netlify.app/",
       "github": "https://github.com/JasminHed/js-project-movies"
@@ -141,17 +140,17 @@
       "id": "8",
       "name": "Todo App",
       "image": "/assets/Todo.png",
-      "description": "A todo app that strucutures tasks, tags as well as notes. Uses form and grid. Designed so it is easy to add more features.",
+      "description": "Task management app with tagging and note-taking. Built for scalability with global state and modular structure.",
       "languages": [
         "HTML5",
         "Styled components",
         "React"
       ],
       "features": [
-        "Flexbox",
-        "Grid",
-        "Responsive Design",
-        "Global state"
+        "Global state with useContext",
+        "Dynamic form handling",
+        "CSS Grid layout",
+        "Styled-components"
       ],
       "netlify": "https://todoapp-jh.netlify.app/",
       "github": "https://github.com/JasminHed/js-project-todo"
@@ -167,10 +166,10 @@
         "Wordpress"
       ],
       "features": [
-        "WCAG compliance",
-        "Semantic HTML + ARIA",
-        "Keyboard navigation",
-        "Lighthouse analysis"
+        "Lighthouse audit & optimization",
+        "WCAG 2.1 level AA review",
+        "Semantic HTML + ARIA roles",
+        "Manual accessibility testing"
       ],
       "netlify": "www.ungaallergiker.se",
       "github": ""
@@ -179,7 +178,7 @@
       "id": "10",
       "name": "Fullstack API",
       "image": "/assets/Fullstack.png",
-      "description": "Fullstack happy thoughs project with own API, database and a sign up/log in form. Restricition to what a user can see if logged in or not logged in.",
+      "description": "Fullstack React app with own Node.js/Express API and MongoDB. Includes user authentication, protected routes, and full CRUD.",
       "languages": [
         "HTML5",
         "Styled components",
@@ -189,15 +188,36 @@
         "MongoDB + Mongoose database"
       ],
       "features": [
-        "Database",
-        "LocalStorage persistence",
-        "Responsive design",
-        "Accessibility",
-        "Post, Get, Patch, Delete",
-        "Routing"
+        "JWT authentication",
+        "MongoDB + Mongoose",
+        "Protected frontend routes",
+        "React Router",
+        "RESTful API (CRUD: GET, POST, PATCH, DELETE)"
       ],
       "netlify": "https://apifrontback.netlify.app/",
       "github": "https://github.com/JasminHed/js-project-api"
     }
-  ]
+  ],
+  {
+    "id": "11",
+    "name": "Portfolio Website",
+    "image": "/assets/Portfolio.webp",
+    "description": "Personal portfolio showcasing selected projects, skills, and contact form. Built from scratch with custom design and focus on performance, accessibility, and responsive design.",
+    "languages": [
+      "HTML5",
+      "CSS",
+      "JavaScript"
+    ],
+    "features": [
+      "Semantic HTML",
+      "Scroll & hover animations",
+      "Responsive Design (Flexbox & Grid)",
+      "WCAG-compliant structure",
+      "Performance optimization",
+      "Contact form"
+    ],
+    "netlify": "https://jasminh-portfolio.netlify.app/",
+    "github": "https://github.com/JasminHed/portfolio"
+  }
+  
 }
