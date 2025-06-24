@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle` 
 
@@ -40,6 +40,7 @@ const GlobalStyle = createGlobalStyle`
   h1 {
     font-family: var(--font-heading);
     font-size: 28px;
+    margin-top: 60px;
   }
 
   h2 {
@@ -72,6 +73,7 @@ const GlobalStyle = createGlobalStyle`
   @media (min-width: 668px) {
     h1 {
       font-size: 48px;
+      margin-top: 75px;
     }
 
     h2 {
@@ -102,7 +104,6 @@ const GlobalStyle = createGlobalStyle`
       padding-inline: 24px;
     }
   }
-`
+`;
 
-export default GlobalStyle
-
+export default GlobalStyle;

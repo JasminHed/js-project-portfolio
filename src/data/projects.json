@@ -196,8 +196,7 @@
       ],
       "netlify": "https://apifrontback.netlify.app/",
       "github": "https://github.com/JasminHed/js-project-api"
-    }
-  ],
+    },
   {
     "id": "11",
     "name": "Portfolio Website",
@@ -206,7 +205,8 @@
     "languages": [
       "HTML5",
       "CSS",
-      "JavaScript"
+      "JavaScript",
+      "React"
     ],
     "features": [
       "Semantic HTML",
@@ -219,5 +219,5 @@
     "netlify": "https://jasminh-portfolio.netlify.app/",
     "github": "https://github.com/JasminHed/portfolio"
   }
-  
+]
 }

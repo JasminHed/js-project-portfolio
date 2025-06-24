@@ -1,13 +1,14 @@
-import journeyData from "../data/journey.json"
 import React from "react"
-import Card from "../components/Card.jsx"
-import CardWrapper from "../styles/CardWrapper.jsx"
-import DesktopCarousel from "../components/DesktopCarousel.jsx"
 import styled from "styled-components"
+
+import Card from "../components/Card.jsx"
+import DesktopCarousel from "../components/DesktopCarousel.jsx"
+import journeyData from "../data/journey.json"
+import CardWrapper from "../styles/CardWrapper.jsx"
 
 const Journey = () => {
   return (
-    <section>
+    <section id="journey">
       <h2>Journey</h2>
       
      

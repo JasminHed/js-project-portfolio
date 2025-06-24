@@ -1,13 +1,14 @@
-import projectData from "../data/projects.json"
 import React from "react"
-import Card from "../components/Card"
-import CardWrapper from "../styles/CardWrapper"
-import DesktopCarousel from "../components/DesktopCarousel"
 import styled from "styled-components"
+
+import Card from "../components/Card"
+import DesktopCarousel from "../components/DesktopCarousel"
+import projectData from "../data/projects.json"
+import CardWrapper from "../styles/CardWrapper"
 
 const Project = () => {
   return (
-    <section>
+    <section id="projects">
       <h2>Projects</h2>
       
      
