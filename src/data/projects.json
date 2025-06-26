@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Business site - Health by Jasmin",
-      "image": "/assets/Business-optimized.webp",
+      "image": "/assets/Business.png",
       "description": " Fully responsive business site for yoga and ayurveda with custom UI/UX. Built from scratch using semantic HTML and modular CSS.",
       "languages": [
         "HTML5",
@@ -81,7 +81,7 @@
     {
       "id": "5",
       "name": "Daily Health",
-      "image": "/assets/DailyHealth-optimized.webp",
+      "image": "/assets/Daily.png",
       "description": "Wellness app offering daily yoga and mindfulness tips based on user's selected mood. Custom design and AI experimentation. Ongoing project.",
       "languages": [
         "HTML5",
