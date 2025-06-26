@@ -200,7 +200,7 @@
   {
     "id": "11",
     "name": "Portfolio Website",
-    "image": "/assets/Portfolio.webp",
+    "image": "/assets/Portfolio.png",
     "description": "Personal portfolio showcasing selected projects, skills, and contact form. Built from scratch with custom design and focus on performance, accessibility, and responsive design.",
     "languages": [
       "HTML5",
