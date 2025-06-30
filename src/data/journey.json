@@ -55,7 +55,15 @@
       "image": "/assets/Journey.webp",
       "description": "Reflections, tips and tricks.",
       "readarticle": "https://medium.com/@jasminhedlund/six-months-a-thousand-commits-c264b73c4094"
-    }
+    },
+
+  {
+    "id": "9",
+    "name": "Remote - what it takes to show up online",
+    "image": "/assets/Remote.webp",
+    "description": "Reflections and thoughts around working remotley.",
+    "readarticle": "https://medium.com/@jasminhedlund/remote-what-it-takes-to-show-up-online-bcf1170b6647"
+  }
 
   ]
 }

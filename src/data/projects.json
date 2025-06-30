@@ -17,7 +17,8 @@
         "Mobile-first responsive design"
       ],
       "netlify": "https://healthbyjasmin.netlify.app/",
-      "github": "https://github.com/JasminHed/healthbyjasmin-project-business-site"
+      "github": "https://github.com/JasminHed/healthbyjasmin-project-business-site",
+      "readme": "https://github.com/JasminHed/healthbyjasmin-project-business-site/blob/main/README.md"
     },
     {
       "id": "2",
@@ -36,7 +37,8 @@
         "Responsive layout"
       ],
       "netlify": "https://jrecipelibrary.netlify.app/",
-      "github": "https://github.com/JasminHed/js-project-recipe"
+      "github": "https://github.com/JasminHed/js-project-recipe",
+      "readme": "https://github.com/JasminHed/js-project-recipe/blob/main/README.md"
     },
     {
       "id": "3",
@@ -56,7 +58,8 @@
         "Responsive design"
       ],
       "netlify": "https://nordicweatherapp.netlify.app/",
-      "github": "https://github.com/JasminHed/newjs-project-weather-app"
+      "github": "https://github.com/JasminHed/newjs-project-weather-app",
+      "readme": "https://github.com/JasminHed/newjs-project-weather-app/blob/main/README.md"
     },
     {
       "id": "4",
@@ -76,7 +79,8 @@
         "WCAG 2.1 compliance"
       ],
       "netlify": "https://accessquiz.netlify.app/",
-      "github": "https://github.com/JasminHed/project-accessibility"
+      "github": "https://github.com/JasminHed/project-accessibility",
+      "readme": "https://github.com/JasminHed/project-accessibility/blob/main/README.md"
     },
     {
       "id": "5",
@@ -96,7 +100,8 @@
         "Custom UI"
       ],
       "netlify": "https://dailyhealthjh.netlify.app/",
-      "github": "https://github.com/JasminHed/dailyhealth"
+      "github": "https://github.com/JasminHed/dailyhealth",
+      "readme": "https://github.com/JasminHed/dailyhealth/blob/main/README.md"
     },
     {
       "id": "6",
@@ -115,7 +120,8 @@
         "Accessible design"
       ],
       "netlify": "https://happy-thoughtsapp.netlify.app/",
-      "github": "https://github.com/Technigo/js-project-happy-thoughts"
+      "github": "https://github.com/Technigo/js-project-happy-thoughts",
+      "readme": "https://github.com/JasminHed/js-project-happy-thoughts/blob/main/README.md"
     },
     {
       "id": "7",
@@ -134,7 +140,8 @@
         "Flexbox & Grid layout"
       ],
       "netlify": "https://movie-projectapp.netlify.app/",
-      "github": "https://github.com/JasminHed/js-project-movies"
+      "github": "https://github.com/JasminHed/js-project-movies",
+      "readme": "https://github.com/JasminHed/js-project-movies/blob/main/README.md"
     },
     {
       "id": "8",
@@ -153,7 +160,8 @@
         "Styled-components"
       ],
       "netlify": "https://todoapp-jh.netlify.app/",
-      "github": "https://github.com/JasminHed/js-project-todo"
+      "github": "https://github.com/JasminHed/js-project-todo",
+      "readme": "https://github.com/JasminHed/js-project-todo/blob/main/README.md"
     },
     {
       "id": "9",
@@ -172,7 +180,7 @@
         "Manual accessibility testing"
       ],
       "netlify": "www.ungaallergiker.se",
-      "github": ""
+      "Presentation Canva": "https://www.canva.com/design/DAGonhoRxps/UijQh1c_qDuwdQ-rNDMCyg/edit?utm_content=DAGonhoRxps&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     },
     {
       "id": "10",
@@ -195,7 +203,8 @@
         "RESTful API (CRUD: GET, POST, PATCH, DELETE)"
       ],
       "netlify": "https://apifrontback.netlify.app/",
-      "github": "https://github.com/JasminHed/js-project-api"
+      "github": "https://github.com/JasminHed/js-project-api",
+      "readme": "https://github.com/JasminHed/js-project-api/blob/master/README.md"
     },
   {
     "id": "11",
@@ -217,7 +226,8 @@
       "Contact form"
     ],
     "netlify": "https://jasminh-portfolio.netlify.app/",
-    "github": "https://github.com/JasminHed/portfolio"
+    "github": "https://github.com/JasminHed/portfolio", 
+    "readme": "https://github.com/JasminHed/js-project-portfolio/blob/main/README.md"
   }
 ]
 }
