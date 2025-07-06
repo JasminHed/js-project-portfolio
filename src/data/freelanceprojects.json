@@ -1,0 +1,46 @@
+{
+  "freelanceprojects": [
+    {
+      "id": "1",
+      "name": "Daily Health",
+      "image": "/assets/Daily.png",
+      "description": "Wellness app offering daily yoga and mindfulness tips based on user's selected mood. Custom design and AI experimentation. Ongoing project.",
+      "languages": [
+        "HTML5",
+        "CSS",
+        "JavaScript"
+      ],
+      "features": [
+        "Conditional rendering",
+        "Accessible layout",
+        "Flexbox & Grid",
+        "Experimental generative AI",
+        "Custom UI"
+      ],
+      "netlify": "https://dailyhealthjh.netlify.app/",
+      "github": "https://github.com/JasminHed/dailyhealth",
+      "readme": "https://github.com/JasminHed/dailyhealth/blob/main/README.md"
+    },
+    
+    {
+      "id": "2",
+      "name": "Freelance project, Unga Allergiker – Accessible Website",
+      "image": "/assets/Ungaallergiker.png",
+      "description": "Accessibility-focused review and improvement of a WordPress website for Unga Allergiker. Evaluated SEO, performance and accessibility using Lighthouse, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Color contrasts and certain image choices could not be adjusted due to the organization's visual identity and decisions made by the board.",
+      "languages": [
+        "CSS",
+        "Javascript",
+        "Wordpress"
+      ],
+      "features": [
+        "Lighthouse audit & optimization",
+        "WCAG 2.1 level AA review",
+        "Semantic HTML + ARIA roles",
+        "Manual accessibility testing"
+      ],
+      "netlify": "www.ungaallergiker.se",
+      "Presentation Canva": "https://www.canva.com/design/DAGonhoRxps/UijQh1c_qDuwdQ-rNDMCyg/edit?utm_content=DAGonhoRxps&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    }
+    
+]
+}

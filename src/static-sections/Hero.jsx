@@ -127,18 +127,18 @@ const Hero = () => {
           </Hamburger>
           <NavLinks open={menuOpen}>
             <li>
-              <a href="#home" onClick={handleLinkClick}>
+              <a href="/" onClick={handleLinkClick}>
                 Home
               </a>
             </li>
             <li>
-              <a href="#projects" onClick={handleLinkClick}>
-                Projects
+              <a href="/schoolprojects#projects" onClick={handleLinkClick}>
+                School Projects
               </a>
             </li>
             <li>
-              <a href="#journey" onClick={handleLinkClick}>
-                Journey
+              <a href="/freelanceprojects" onClick={handleLinkClick}>
+                Freelance Projects
               </a>
             </li>
           </NavLinks>
