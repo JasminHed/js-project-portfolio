@@ -9,9 +9,9 @@
     },
     {
       "id": "2",
-      "name": "My first real project idea",
-      "image": "/assets/Project.png",
-      "description": "You can go from an idea to something you build — just by learning and trying.",
+      "name": "Building DailyHealth — a small, personal app for mindful routines (with a sprinkle of AI",
+      "image": "/assets/Project.webp",
+      "description": "A small personal app with a sprinkle of AI.",
       "readarticle": "https://medium.com/@jasminhedlund/my-first-real-project-idea-dailyhealth-72771545b8a9"
     },
     {
@@ -29,28 +29,21 @@
       "readarticle": "https://medium.com/@jasminhedlund/career-week-just-kicked-off-at-technigo-and-with-that-weve-also-started-planning-and-building-752c430ecb82"
     },
     {
-      "id": "5",
-      "name": "First freelance project",
+      "id": "4",
+      "name": "Freelance project - Wordpress",
       "image": "/assets/Freelance.webp",
       "description": "Accessibility at Unga Allergiker.",
-      "readarticle": "https://medium.com/@jasminhedlund/first-freelance-project-605b49acb0d3"
+      "readarticle": "https://medium.com/@jasminhedlund/wrapped-up-my-first-freelance-project-e3fadb931248"
     },
     {
       "id": "6",
-      "name": "Update on Daily Health",
-      "image": "/assets/Health.webp",
-      "description": "Generative AI and health",
-      "readarticle": "https://medium.com/@jasminhedlund/daily-health-update-b952c243afab"
-    },
-    {
-      "id": "7",
       "name": "Accessibility - 4 fixes",
       "image": "/assets/Accessibility.webp",
       "description": "Accessibility, start simple and effective.",
       "readarticle": "https://medium.com/@jasminhedlund/accessibility-4-fixes-that-make-a-difference-a881743d99bc"
     },
     {
-      "id": "8",
+      "id": "7",
       "name": "Bootcamp coming to an end",
       "image": "/assets/Journey.webp",
       "description": "Reflections, tips and tricks.",
@@ -58,11 +51,18 @@
     },
 
   {
-    "id": "9",
+    "id": "8",
     "name": "Remote - what it takes to show up online",
     "image": "/assets/Remote.webp",
     "description": "Reflections and thoughts around working remotley.",
     "readarticle": "https://medium.com/@jasminhedlund/remote-what-it-takes-to-show-up-online-bcf1170b6647"
+  },
+  {
+    "id": "9",
+    "name": "Tips and Tricks on accessibility for entrepreneurs",
+    "image": "/assets/Entrepren.webp",
+    "description": "Tips and tricks on accessibility for entrepreneurs.",
+    "readarticle": "https://medium.com/@jasminhedlund/website-accessibility-a-simple-guide-for-entrepreneurs-8968a78af4e6"
   }
 
   ]
