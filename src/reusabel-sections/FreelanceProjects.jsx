@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import Card from "../components/Card";
 import DesktopCarousel from "../components/DesktopCarousel";
-import freelanceProjectData from "../data/freelanceProjects.json";
+import freelanceProjectData from "../data/freelanceprojects.json";
 import CardWrapper from "../styles/CardWrapper";
 
 const FreelanceProjects = () => {
