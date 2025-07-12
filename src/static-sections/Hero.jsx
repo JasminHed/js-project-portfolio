@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react"; // Bra att importera React (kan behövas beroende på version)
 import styled from "styled-components";
 
 import ProfileImage from "../components/Profileimage";
@@ -46,105 +46,9 @@ const SocialIcons = styled.div`
   margin-top: 8px;
 `;
 
-const Nav = styled.nav`
-  width: 100%;
-  right: 0;
-  padding: 10px 16px;
-  position: fixed;
-  margin-top: 10px;
-`;
-
-const NavInner = styled.div`
-  display: flex;
-  justify-content: flex-end;
-`;
-
-const Hamburger = styled.button`
-  font-size: 24px;
-  background: none;
-  border: none;
-  cursor: pointer;
-
-  @media (min-width: 768px) {
-    display: none;
-  }
-`;
-
-const NavLinks = styled.ul`
-  list-style: none;
-  padding: 0;
-  margin: 0;
-
-  display: ${(props) => (props.open ? "block" : "none")};
-  text-align: center;
-
-  li {
-    margin: 6px 0;
-  }
-
-  a {
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  @media (max-width: 767px) {
-    position: absolute;
-    top: 100%;
-    right: 10px;
-    height: 90%;
-    border-radius: 4px;
-    padding: 10px 20px;
-    text-align: left;
-    z-index: 100;
-  }
-
-  @media (min-width: 768px) {
-    display: flex;
-    gap: 24px;
-    li {
-      margin: 0;
-    }
-  }
-`;
-
 const Hero = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  // Function to close menu on click
-  const handleLinkClick = () => {
-    setMenuOpen(false);
-  };
-
   return (
     <>
-      <Nav>
-        <NavInner>
-          <Hamburger
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle menu"
-          >
-            ☰
-          </Hamburger>
-          <NavLinks open={menuOpen}>
-            <li>
-              <a href="/" onClick={handleLinkClick}>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="/schoolprojects#projects" onClick={handleLinkClick}>
-                School Projects
-              </a>
-            </li>
-            <li>
-              <a href="/freelanceprojects" onClick={handleLinkClick}>
-                Freelance Projects
-              </a>
-            </li>
-          </NavLinks>
-        </NavInner>
-      </Nav>
-
       <HeroWrapper id="home">
         <HeroContent>
           <h1>I am Jasmin Hedlund</h1>
