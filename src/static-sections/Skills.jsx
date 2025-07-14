@@ -1,5 +1,4 @@
-import styled from "styled-components"
-
+import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   display: flex;
@@ -12,9 +11,9 @@ const SectionWrapper = styled.section`
   margin-bottom: 64px;
 
   @media (min-width: 1024px) and (max-width: 1600px) {
-  margin-bottom: 64px;
+    margin-bottom: 64px;
   }
-`
+`;
 const SkillsContent = styled.div`
   display: flex;
   flex-direction: column;
@@ -41,7 +40,7 @@ const SkillsContent = styled.div`
     justify-content: center;
     padding: 32px 24px 64px;
   }
-`
+`;
 //Text over each other and aligned in column
 const SkillsText = styled.div`
   display: flex;
@@ -49,7 +48,7 @@ const SkillsText = styled.div`
   width: 45%;
   min-width: 130px;
   text-align: left;
-`
+`;
 
 const Skills = () => {
   return (
@@ -59,36 +58,27 @@ const Skills = () => {
         <SkillsText>
           <h3>Code</h3>
           <p>React</p>
-          <p>Typescript</p>
           <p>Javascript, ES6</p>
+          <p>Basic, Node.js</p>
+          <p>Basic, MongoDB</p>
           <p>HTML</p>
           <p>CSS</p>
         </SkillsText>
-
-        
 
         <SkillsText>
           <h3>Toolbox</h3>
           <p>Agile Methodology</p>
           <p>Figma</p>
           <p>Slack/Teams</p>
-          <p>VS Code</p>
+          <p>CMS</p>
           <p>Github</p>
-          <p>Wordpress</p>
-          <p>Teamtailor</p>
-          <p>Zendesk</p>
+          <p>CRM</p>
         </SkillsText>
-
-        
 
         <SkillsText>
           <h3>Upcoming</h3>
-          <p>Node.js</p>
-          <p>MongoDB</p>
-          <p>AI Prompting</p>
+          <p>Sitevision</p>
         </SkillsText>
-
-      
 
         <SkillsText>
           <h3>More</h3>
@@ -96,11 +86,11 @@ const Skills = () => {
           <p>Resourceful</p>
           <p>Quick to adapt</p>
           <p>Ownership mindset</p>
-          <p>Continious learner</p>
+          <p>Motivated by growth</p>
         </SkillsText>
       </SkillsContent>
     </SectionWrapper>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
