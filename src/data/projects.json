@@ -231,7 +231,7 @@
   },
   {
     "id": "12",
-    "name": "Final Project",
+    "name": "Ongoing Final Project for Bootcamp",
     "image": "/assets/Final.png",
     "description": "Fullstack React app with Node.js/Express API, MongoDB, AI. Includes user authentication, protected routes, and full CRUD.",
     "languages": [
