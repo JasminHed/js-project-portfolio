@@ -228,6 +228,29 @@
     "netlify": "https://jasminh-portfolio.netlify.app/",
     "github": "https://github.com/JasminHed/portfolio", 
     "readme": "https://github.com/JasminHed/js-project-portfolio/blob/main/README.md"
+  },
+  {
+    "id": "12",
+    "name": "Final Project",
+    "image": "/assets/Final.png",
+    "description": "Fullstack React app with Node.js/Express API, MongoDB, AI. Includes user authentication, protected routes, and full CRUD.",
+    "languages": [
+      "Styled components",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB + Mongoose database"
+    ],
+    "features": [
+      "JWT authentication",
+      "MongoDB + Mongoose",
+      "Protected frontend routes",
+      "React Router",
+      "RESTful API (CRUD: GET, POST, PATCH, DELETE)"
+    ],
+    "netlify": "https://finalprojectjasmin.netlify.app/",
+    "github": "https://github.com/JasminHed/project-final"
+   
   }
 ]
 }
