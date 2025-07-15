@@ -55,27 +55,32 @@ const Hero = () => {
           <h1>I am Jasmin Hedlund</h1>
           <h2>Web Developer</h2>
           <p>
-            Hello there, I'm a web developer with a tech toolkit of React, JavaScript, Node.js, MongoDB, HTML, CSS, CMS and CRM competence.
+            Hello there, I am a Web developer with an entrepreneurial mindset,
+            passionate about accessibility, health and meaningful digital
+            solutions — especially within the nonprofit sector, education and
+            social impact.
           </p>
 
           <p>
-          My background is in HR, administration, and recruitment, where I led projects, improved workflows, implemented digital systems, and built internal structures and routines — including a recruitment network for knowledge sharing and collaboration.
+            My background is in HR, administration and recruitment — primarily
+            within the non-profit sector. In these roles, I led projects,
+            improved workflows, digital communication and implemented digital
+            tools. I also created clear documentation such as guides and
+            manuals.
+          </p>
+
+          <p>In parallel, I freelance in health, yoga and ayurveda.</p>
+
+          <p>
+            Understanding human behavior is at the core of how I approach
+            development. My time in people-focused roles has taught me to adapt
+            quickly and stay proactive. I am teachable, enthusiastic and
+            comfortable taking initiative to move things forward.
           </p>
 
           <p>
-            In parallel, I freelance in health, yoga and wellbeing. It taught me how to
-            stay organized, work independently and adapt to different contexts.
-          </p>
-
-          <p>
-            Understanding human behavior is a core part of how I work. My time
-            in people-focused roles has sharpened my ability to adapt quickly,
-            stay proactive and work well with all kinds of people – whether in
-            a team or with clients.
-          </p>
-
-          <p>
-            My passion areas include health, accessibility, writing and anything purpose driven, educational or with a focus on social impact.
+            I am drawn to web development because it combines practicality with
+            creativity.
           </p>
 
           <SocialIcons>
