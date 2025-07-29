@@ -55,10 +55,10 @@ const Hero = () => {
           <h1>I am Jasmin Hedlund</h1>
           <h2>Web Developer</h2>
           <p>
-            Hello there, I am a Web developer with an entrepreneurial mindset,
-            passionate about accessibility, health and meaningful digital
-            solutions — especially within the nonprofit sector, education and
-            social impact.
+            Hello there, I am a Web developer (frontend focus) with an
+            entrepreneurial mindset, passionate about accessibility, health and
+            meaningful digital solutions — especially within the nonprofit
+            sector, education and social impact.
           </p>
 
           <p>

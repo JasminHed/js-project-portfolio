@@ -59,8 +59,8 @@ const Skills = () => {
           <h3>Code</h3>
           <p>React</p>
           <p>Javascript, ES6</p>
-          <p>Basic, Node.js</p>
-          <p>Basic, MongoDB</p>
+          <p>Node.js</p>
+          <p>MongoDB</p>
           <p>HTML</p>
           <p>CSS</p>
         </SkillsText>
