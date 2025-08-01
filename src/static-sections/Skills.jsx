@@ -68,12 +68,11 @@ const Skills = () => {
         <SkillsText>
           <h3>Toolbox</h3>
           <p>Web Accessibility</p>
-          <p>Design Tools (Figma, Canva)</p>
-          <p>CMS (Wordpress, Squarespace)</p>
-          <p>Development (Github)</p>
-          <p>Communication (Slack, Teams)</p>
-          <p>Project Management (Notion, Trello, Asana, Agile)</p>
-          <p>CRM (Salesforce, Sharepoint, Zendesk)</p>
+          <p>Figma & Canva</p>
+          <p>CMS</p>
+          <p>Slack & Teams</p>
+          <p>Project management tools</p>
+          <p>CRM</p>
         </SkillsText>
 
         <SkillsText>
@@ -84,7 +83,7 @@ const Skills = () => {
 
         <SkillsText>
           <h3>More</h3>
-          <p>Writer</p>
+          <p>People-centered</p>
           <p>Resourceful</p>
           <p>Quick to adapt</p>
           <p>Ownership mindset</p>
