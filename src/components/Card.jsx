@@ -1,7 +1,8 @@
 import React from "react"
 import styled from "styled-components"
-import CardImage from "./Cardimage"
+
 import { ButtonGroup, PrimaryButton, SecondaryButton } from "./Button"
+import CardImage from "./Cardimage"
 
 const CardSection = styled.article`
   display: flex;
@@ -36,7 +37,7 @@ const CardSection = styled.article`
 const Card = ({ type, data }) => {
   return (
     <CardSection>
-      <CardImage src={data.image} alt={data.name} 
+    <CardImage src={data.image} alt={`Screenshot of ${data.name} project`} />
         width={data.width}
         height={data.height}     
         loading="lazy" />
