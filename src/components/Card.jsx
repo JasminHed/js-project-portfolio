@@ -56,7 +56,7 @@ const Card = ({ type, data }) => {
               rel="noopener noreferrer"
               aria-label={`Read more about ${data.name} (opens in new tab)`}
             >
-              Read article
+              Read about {data.readarticleText}
             </SecondaryButton>
           </ButtonGroup>
         </>
@@ -77,7 +77,7 @@ const Card = ({ type, data }) => {
               rel="noopener noreferrer"
               aria-label={`Visit live site for ${data.name} (opens in new tab)`} //for screenreaders
             >
-              Visit site
+              Visit {data.netlifyText}
             </PrimaryButton>
             <SecondaryButton
               href={data.github}
@@ -85,7 +85,7 @@ const Card = ({ type, data }) => {
               rel="noopener noreferrer"
               aria-label={`View GitHub code for ${data.name} (external link)`}
             >
-              View code on GitHub
+              View {data.githubText}
             </SecondaryButton>
           </ButtonGroup>
         </>

@@ -18,8 +18,9 @@
         "Mobile-first responsive design"
       ],
       "netlify": "https://healthbyjasmin.netlify.app/",
-      "github": "https://github.com/JasminHed/healthbyjasmin-project-business-site"
-
+      "github": "https://github.com/JasminHed/healthbyjasmin-project-business-site",
+      "netlifyText": "Health by Jasmin",
+      "githubText": "Business Site Code"
     },
     {
       "id": "2",
@@ -39,7 +40,9 @@
         "Responsive layout"
       ],
       "netlify": "https://jrecipelibrary.netlify.app/",
-      "github": "https://github.com/JasminHed/js-project-recipe"
+      "github": "https://github.com/JasminHed/js-project-recipe",
+      "netlifyText": "Recipe App",
+      "githubText": "Recipe App Code"
     },
     {
       "id": "3",
@@ -60,7 +63,9 @@
         "Responsive design"
       ],
       "netlify": "https://nordicweatherapp.netlify.app/",
-      "github": "https://github.com/JasminHed/newjs-project-weather-app"
+      "github": "https://github.com/JasminHed/newjs-project-weather-app",
+      "netlifyText": "Weather App",
+      "githubText": "Weather App Code"
     },
     {
       "id": "4",
@@ -81,7 +86,9 @@
         "WCAG 2.1 compliance"
       ],
       "netlify": "https://accessquiz.netlify.app/",
-      "github": "https://github.com/JasminHed/project-accessibility"
+      "github": "https://github.com/JasminHed/project-accessibility",
+      "netlifyText": "Accessibility Quiz",
+      "githubText": "Quiz Code"
     },
     {
       "id": "5",
@@ -102,7 +109,9 @@
         "Custom UI"
       ],
       "netlify": "https://dailyhealthjh.netlify.app/",
-      "github": "https://github.com/JasminHed/dailyhealth"
+      "github": "https://github.com/JasminHed/dailyhealth",
+      "netlifyText": "Daily Health",
+      "githubText": "Daily Health Code"
     },
     {
       "id": "6",
@@ -122,7 +131,9 @@
         "Accessible design"
       ],
       "netlify": "https://happy-thoughtsapp.netlify.app/",
-      "github": "https://github.com/Technigo/js-project-happy-thoughts"
+      "github": "https://github.com/Technigo/js-project-happy-thoughts",
+      "netlifyText": "Happy Thoughts",
+      "githubText": "Thoughts App Code"
     },
     {
       "id": "7",
@@ -142,7 +153,9 @@
         "Flexbox & Grid layout"
       ],
       "netlify": "https://movie-projectapp.netlify.app/",
-      "github": "https://github.com/JasminHed/js-project-movies"
+      "github": "https://github.com/JasminHed/js-project-movies",
+      "netlifyText": "Movies Now",
+      "githubText": "Movie App Code"
     },
     {
       "id": "8",
@@ -162,11 +175,13 @@
         "Styled-components"
       ],
       "netlify": "https://todoapp-jh.netlify.app/",
-      "github": "https://github.com/JasminHed/js-project-todo"
+      "github": "https://github.com/JasminHed/js-project-todo",
+      "netlifyText": "Todo App",
+      "githubText": "Todo App Code"
     },
     {
       "id": "9",
-      "name": "Portfolio",
+      "name": "Jasmin´s Portfolio",
       "image": "/assets/Portfolio.png",
       "altText": "Portfolio website homepage featuring the footer part that says lets talk with a purple background and social media links",
       "description": "Personal portfolio showcasing selected projects, skills, and contact form. Built from scratch with custom design and focus on performance, accessibility, and responsive design.",
@@ -185,14 +200,16 @@
         "Contact form"
       ],
       "netlify": "https://jasminh-portfolio.netlify.app/",
-      "github": "https://github.com/JasminHed/portfolio"
+      "github": "https://github.com/JasminHed/portfolio",
+      "netlifyText": "Jasmin´s Portfolio",
+      "githubText": "Portfolio Site Code"
     },
     {
       "id": "10",
-      "name": "Unga Allergiker Project",
+      "name": "Unga Allergiker Freelance Project",
       "image": "/assets/Ungaallergiker.png",
       "altText": "Unga Allergiker website homepage showing a part of an image from their summercamp, it is a summer evening on the lake.",
-      "description": "Freelance project. Accessibility-focused review and improvement of a WordPress website for Unga Allergiker. Evaluated SEO, performance and accessibility using Lighthouse, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Color contrasts and certain image choices could not be adjusted due to the organization's visual identity and decisions made by the board.",
+      "description": "Accessibility-focused review and improvement of a WordPress website for Unga Allergiker. Evaluated SEO, performance and accessibility using Lighthouse, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Color contrasts and certain image choices could not be adjusted due to the organization's visual identity and decisions made by the board.",
       "languages": [
         "CSS",
         "Javascript",
@@ -205,11 +222,13 @@
         "Manual accessibility testing"
       ],
       "netlify": "www.ungaallergiker.se",
-      "github": "https://www.canva.com/design/DAGonhoRxps/UijQh1c_qDuwdQ-rNDMCyg/edit?utm_content=DAGonhoRxps&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      "github": "https://www.canva.com/design/DAGonhoRxps/UijQh1c_qDuwdQ-rNDMCyg/edit?utm_content=DAGonhoRxps&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "netlifyText": " Unga Allergiker",
+      "githubText": "Canva Board"
     },
     {
       "id": "11",
-      "name": "Happy Thoughts",
+      "name": "Happy Thoughts - Fullstack",
       "image": "/assets/Fullstack.png",
       "altText": "Fullstack application dashboard showing social media posts of happy thoughts.",
       "description": "Fullstack React app with own Node.js/Express API and MongoDB. Includes user authentication, protected routes, and full CRUD.",
@@ -229,51 +248,55 @@
         "RESTful API (CRUD: GET, POST, PATCH, DELETE)"
       ],
       "netlify": "https://apifrontback.netlify.app/",
-      "github": "https://github.com/JasminHed/js-project-api"
+      "github": "https://github.com/JasminHed/js-project-api",
+      "netlifyText": "Fullstack Happy Thoughts",
+      "githubText": "Fullstack App Code"
     },
-  
-  {
-    "id": "12",
-    "name": "Intention Hub",
-    "image": "/assets/Final.png",
-    "altText": "Showing header image in dark pink with an image of flowers over it",
-    "description": "Fullstack React app with Node.js/Express API, MongoDB, AI. Includes user authentication, protected routes, and full CRUD.",
-    "languages": [
-      "Styled components",
-      "React",
-      "Node.js",
-      "Express",
-      "MongoDB + Mongoose database"
-    ],
-    "features": [
-      "JWT authentication",
-      "MongoDB + Mongoose",
-      "Protected frontend routes",
-      "React Router",
-      "RESTful API (CRUD: GET, POST, PATCH, DELETE)"
-    ],
-    "netlify": "https://finalprojectjasmin.netlify.app/",
-    "github": "https://github.com/JasminHed/project-final"
-   
-  },
-  {
-    "id": "13",
-    "name": "Kodcentrum Project",
-    "image": "/assets/Kodcentrum.png",
-    "altText": "Kodcentrum website homepage showing their header image of a young girl smiling.",
-    "description": "Freelance project. Accessibility-focused review and improvement of a Squarespace website for Kodcentrum. Evaluated SEO and accessibility using Lighthouse and Wave, with the main goal of reaching green scores on WCAG compliance and enhancing site structure.",
-    "languages": [
-      "CSS",
-      "Squarespace"
-    ],
-    "features": [
-      "Lighthouse & Wave audit & optimization",
-      "WCAG 2.1 level AA review",
-      "Semantic HTML + ARIA roles",
-      "SEO"
-    ],
-    "netlify": "www.kodcentrum.se",
-    "github": "https://www.canva.com/design/DAGsAYNybxc/mTNOmu1KmAkmK4a6kmZgSQ/edit?utm_content=DAGsAYNybxc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-  }
-]
+    {
+      "id": "12",
+      "name": "Intention Hub",
+      "image": "/assets/Final.png",
+      "altText": "Showing header image in dark pink with an image of flowers over it",
+      "description": "Fullstack React app with Node.js/Express API, MongoDB, AI. Includes user authentication, protected routes, and full CRUD.",
+      "languages": [
+        "Styled components",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB + Mongoose database"
+      ],
+      "features": [
+        "JWT authentication",
+        "MongoDB + Mongoose",
+        "Protected frontend routes",
+        "React Router",
+        "RESTful API (CRUD: GET, POST, PATCH, DELETE)"
+      ],
+      "netlify": "https://finalprojectjasmin.netlify.app/",
+      "github": "https://github.com/JasminHed/project-final",
+      "netlifyText": "Intention Hub",
+      "githubText": "Intention Hub Code"
+    },
+    {
+      "id": "13",
+      "name": "Kodcentrum Freelance Project",
+      "image": "/assets/Kodcentrum.png",
+      "altText": "Kodcentrum website homepage showing their header image of a young girl smiling.",
+      "description": "Accessibility-focused review and improvement of a Squarespace website for Kodcentrum. Evaluated SEO and accessibility using Lighthouse and Wave, with the main goal of reaching green scores on WCAG compliance and enhancing site structure.",
+      "languages": [
+        "CSS",
+        "Squarespace"
+      ],
+      "features": [
+        "Lighthouse & Wave audit & optimization",
+        "WCAG 2.1 level AA review",
+        "Semantic HTML + ARIA roles",
+        "SEO"
+      ],
+      "netlify": "www.kodcentrum.se",
+      "github": "https://www.canva.com/design/DAGsAYNybxc/mTNOmu1KmAkmK4a6kmZgSQ/edit?utm_content=DAGsAYNybxc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "netlifyText": "Kodcentrum",
+      "githubText": "Canva Presentation"
+    }
+  ]
 }

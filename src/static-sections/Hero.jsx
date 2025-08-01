@@ -3,24 +3,6 @@ import styled from "styled-components";
 
 import ProfileImage from "../components/Profileimage";
 
-const DarkModeButton = styled.button`
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  z-index: 10;
-  padding: 6px 12px;
-  border: 1px solid var(--color-text);
-  background: transparent;
-  color: var(--color-text);
-  font-size: 14px;
-  cursor: pointer;
-
-  &:focus {
-    outline: 3px solid var(--color-secondary);
-    outline-offset: 4px;
-  }
-`;
-
 const HeroWrapper = styled.section`
   display: flex;
   flex-direction: column;
@@ -61,14 +43,10 @@ const SocialIcons = styled.div`
   margin-top: 8px;
 `;
 
-const Hero = ({ darkMode, toggleDarkMode }) => {
+const Hero = () => {
   return (
     <>
       <HeroWrapper id="home">
-        <DarkModeButton onClick={toggleDarkMode}>
-          {darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
-        </DarkModeButton>
-
         <HeroContent>
           <h1>Portfolio of Jasmin Hedlund</h1>
 

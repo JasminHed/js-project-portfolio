@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ButtonGroup = styled.div`
   display: flex;
   gap: 8px;
-  flex-wrap: nowrap;
+  //flex-wrap: nowrap;
   margin-top: 12px;
 
   @media (min-width: 668px) {
