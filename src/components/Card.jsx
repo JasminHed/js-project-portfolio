@@ -39,7 +39,7 @@ const Card = ({ type, data }) => {
     <CardSection>
       <CardImage
         src={data.image}
-        alt={`Screenshot of ${data.name} project`}
+        alt={data.altText}
         width={data.width}
         height={data.height}
         loading="lazy"
@@ -54,6 +54,7 @@ const Card = ({ type, data }) => {
               href={data.readarticle}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Read more about ${data.name} (opens in new tab)`}
             >
               Read article
             </SecondaryButton>
@@ -74,15 +75,17 @@ const Card = ({ type, data }) => {
               href={data.netlify}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Visit live site for ${data.name} (opens in new tab)`} //for screenreaders
             >
-              Go to live website
+              Visit site
             </PrimaryButton>
             <SecondaryButton
               href={data.github}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`View GitHub code for ${data.name} (external link)`}
             >
-              View Code
+              View code on GitHub
             </SecondaryButton>
           </ButtonGroup>
         </>

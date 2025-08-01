@@ -48,6 +48,11 @@ const SkillsText = styled.div`
   width: 45%;
   min-width: 130px;
   text-align: left;
+
+  ul {
+    list-style: none;
+    padding: 0; //centered
+  }
 `;
 
 const Skills = () => {
@@ -57,37 +62,45 @@ const Skills = () => {
       <SkillsContent>
         <SkillsText>
           <h3>Code</h3>
-          <p>React</p>
-          <p>Javascript, ES6</p>
-          <p>Node.js</p>
-          <p>MongoDB</p>
-          <p>HTML</p>
-          <p>CSS</p>
+          <ul>
+            <li>React</li>
+            <li>Javascript, ES6</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
         </SkillsText>
 
         <SkillsText>
           <h3>Toolbox</h3>
-          <p>Web Accessibility</p>
-          <p>Figma & Canva</p>
-          <p>CMS</p>
-          <p>Slack & Teams</p>
-          <p>Project management tools</p>
-          <p>CRM</p>
+          <ul>
+            <li>Web Accessibility</li>
+            <li>Figma & Canva</li>
+            <li>CMS</li>
+            <li>Slack & Teams</li>
+            <li>Project management tools</li>
+            <li>CRM</li>
+          </ul>
         </SkillsText>
 
         <SkillsText>
           <h3>Upcoming</h3>
-          <p>Sitevision</p>
-          <p>Digital Accessibility & Inclusive Design</p>
+          <ul>
+            <li>Sitevision</li>
+            <li>Digital Accessibility & Inclusive Design</li>
+          </ul>
         </SkillsText>
 
         <SkillsText>
           <h3>More</h3>
-          <p>People-centered</p>
-          <p>Resourceful</p>
-          <p>Quick to adapt</p>
-          <p>Ownership mindset</p>
-          <p>Motivated by growth</p>
+          <ul>
+            <li>People-centered</li>
+            <li>Resourceful</li>
+            <li>Quick to adapt</li>
+            <li>Ownership mindset</li>
+            <li>Motivated by growth</li>
+          </ul>
         </SkillsText>
       </SkillsContent>
     </SectionWrapper>

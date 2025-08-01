@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   display: flex;
@@ -10,10 +10,10 @@ const SectionWrapper = styled.section`
   gap: 32px;
   margin-bottom: 64px;
 
-   @media (min-width: 1024px) and (max-width: 1600px) {
-  margin-bottom: 64px;
+  @media (min-width: 1024px) and (max-width: 1600px) {
+    margin-bottom: 64px;
   }
-`
+`;
 
 const TechContent = styled.div`
   display: flex;
@@ -21,13 +21,18 @@ const TechContent = styled.div`
   align-items: center;
   max-width: 820px;
   text-align: center;
-`
+`;
 
 const TechText = styled.div`
   display: flex;
   flex-direction: column;
   gap: 8px;
-`
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+`;
 
 const Tech = () => {
   return (
@@ -35,18 +40,21 @@ const Tech = () => {
       <h2>Tech</h2>
       <TechContent>
         <TechText>
-          <p>Javascript, ES6</p>
-          <p>React, Node.js</p>
-          <p>Web Accessibility</p>
-          <p>HTML & CSS</p>
-          <p>APIs</p>
-          <p>Mob programming</p>
-          <p>Pair programming</p>
-          <p>Github</p>
+          <ul>
+            <li>Javascript, ES6</li>
+            <li>React</li>
+            <li>Web Accessibility</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>APIs</li>
+            <li>Mob programming</li>
+            <li>Pair programming</li>
+            <li>Github</li>
+          </ul>
         </TechText>
       </TechContent>
     </SectionWrapper>
-  )
-}
+  );
+};
 
-export default Tech
+export default Tech;

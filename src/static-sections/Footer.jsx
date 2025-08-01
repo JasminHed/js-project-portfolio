@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import ProfileImage from "../components/Profileimage"
+import styled from "styled-components";
+import ProfileImage from "../components/Profileimage";
 
 const FooterWrapper = styled.footer`
   display: flex;
@@ -8,9 +8,8 @@ const FooterWrapper = styled.footer`
   padding: 64px 24px;
   align-items: center;
   text-align: center;
-  background-color: #d3c7df;
+  background-color: var(--color-primary);
   width: 100vw;
- 
 
   @media (min-width: 668px) {
     padding: 64px;
@@ -23,7 +22,7 @@ const FooterWrapper = styled.footer`
     padding: 64px 128px 128px 128px;
     margin-top: 80px;
   }
-`
+`;
 
 const FooterContent = styled.div`
   display: flex;
@@ -39,18 +38,18 @@ const FooterContent = styled.div`
     align-items: flex-start;
     justify-content: space-between;
   }
-`
+`;
 
 const FooterText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-`
+`;
 const SocialIcons = styled.div`
   display: flex;
   gap: 16px;
   margin-top: 8px;
-`
+`;
 
 const Footer = () => {
   return (
@@ -60,9 +59,8 @@ const Footer = () => {
           src="/assets/profile-optimized.webp"
           alt="Profile picture of Jasmin"
           width="200"
-          height="200" 
+          height="200"
           loading="lazy"
-          
         />
         <FooterText>
           <h2>Let´s Talk</h2>
@@ -101,7 +99,7 @@ const Footer = () => {
         </FooterText>
       </FooterContent>
     </FooterWrapper>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

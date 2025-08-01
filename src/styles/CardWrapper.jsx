@@ -1,12 +1,10 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-
-const CardWrapper = styled.section`
+const CardWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
   margin-bottom: 64px;
-
 
   @media (min-width: 668px) {
     display: grid;
@@ -15,12 +13,9 @@ const CardWrapper = styled.section`
     margin-bottom: 64px;
   }
 
-@media (min-width: 1024px) and (max-width: 1600px) {
-  display: none;
-}
-  
-`
+  @media (min-width: 1024px) and (max-width: 1600px) {
+    display: none;
+  }
+`;
 
- 
-
-export default CardWrapper
+export default CardWrapper;

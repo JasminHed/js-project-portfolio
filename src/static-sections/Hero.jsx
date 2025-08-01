@@ -1,8 +1,25 @@
 import React from "react";
-// Bra att importera React (kan behövas beroende på version)
 import styled from "styled-components";
 
 import ProfileImage from "../components/Profileimage";
+
+const DarkModeButton = styled.button`
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
+  padding: 6px 12px;
+  border: 1px solid var(--color-text);
+  background: transparent;
+  color: var(--color-text);
+  font-size: 14px;
+  cursor: pointer;
+
+  &:focus {
+    outline: 3px solid var(--color-secondary);
+    outline-offset: 4px;
+  }
+`;
 
 const HeroWrapper = styled.section`
   display: flex;
@@ -32,12 +49,9 @@ const HeroContent = styled.div`
   gap: 8px;
   padding: 16px;
 
-  h2 {
-    text-align: left;
-  }
-
   p {
     letter-spacing: 0.3px;
+    margin-top: 20px;
   }
 `;
 
@@ -47,13 +61,17 @@ const SocialIcons = styled.div`
   margin-top: 8px;
 `;
 
-const Hero = () => {
+const Hero = ({ darkMode, toggleDarkMode }) => {
   return (
     <>
       <HeroWrapper id="home">
+        <DarkModeButton onClick={toggleDarkMode}>
+          {darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
+        </DarkModeButton>
+
         <HeroContent>
-          <h1>I am Jasmin Hedlund</h1>
-          <h2>Web Developer</h2>
+          <h1>Portfolio of Jasmin Hedlund</h1>
+
           <p>
             Hello there, I am a Web developer (frontend focus) with an
             entrepreneurial mindset, passionate about accessibility, health and
@@ -112,7 +130,7 @@ const Hero = () => {
         </HeroContent>
         <ProfileImage
           src="/assets/profile-optimized.webp"
-          alt="Profile picture of Jasmin"
+          alt="Profile picture in round format,black and white, of a woman with dark long hair,white skin,brown eyes, somewhat round face with a smile, a black sweater with a background of grey curtains. It is a formal setting."
           width="200"
           height="200"
           loading="lazy"

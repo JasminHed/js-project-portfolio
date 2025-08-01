@@ -10,6 +10,15 @@ const GlobalStyle = createGlobalStyle`
     --font-body: 'Poppins', sans-serif;
   }
 
+  :root.dark {
+  --color-text: #f0f0f0;
+  --color-primary: #9b79b5;        
+  --color-secondary: #c6a9dc;      
+  background: #121212;     
+}
+
+
+
   *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -29,7 +38,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     line-height: 1.5;
     color: var(--color-text);
-    background: white;
     overflow-x: hidden;
   }
 
@@ -39,8 +47,9 @@ const GlobalStyle = createGlobalStyle`
 
   h1 {
     font-family: var(--font-heading);
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 60px;
+    
   }
 
   h2 {

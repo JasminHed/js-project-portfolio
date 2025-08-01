@@ -4,20 +4,23 @@
       "id": "1",
       "name": "Diving into Tech",
       "image": "/assets/Tech-optimized.webp",
+      "altText": "Image of a laptop with calender and coffee, representing career transition into technology",
       "description": "Why and how I found my way into Tech and what it has really meant.",
       "readarticle": "https://medium.com/@jasminhedlund/diving-into-tech-a7260565ca6d"
     },
     {
       "id": "2",
-      "name": "Building DailyHealth — a small, personal app for mindful routines (with a sprinkle of AI",
+      "name": "Building DailyHealth — a small, personal app",
       "image": "/assets/Project.webp",
-      "description": "A small personal app with a sprinkle of AI.",
+      "altText": "Image of a space with a computer, yoga mat, plant and sunlight coming in through the window.",
+      "description": "A small personal app for mindful routines with a sprinkle of AI.",
       "readarticle": "https://medium.com/@jasminhedlund/my-first-real-project-idea-dailyhealth-72771545b8a9"
     },
     {
       "id": "3",
       "name": "Can you love code?",
       "image": "/assets/Balance-optimized.webp",
+      "altText": "Image showing a table with tea, a womans hand writing, A very contemplative mood.",
       "description": "Sometimes I wonder — does coding have to be your whole life to count as a passion?",
       "readarticle": "https://medium.com/@jasminhedlund/can-you-love-code-and-still-love-other-things-yes-cb968a948938"
     },
@@ -25,6 +28,7 @@
       "id": "4",
       "name": "Career Week just kicked off at Technigo",
       "image": "/assets/Celebration-optimized.webp",
+      "altText": "Celebration scene with confetti and a ballon, representing bootcamp milestone achievement",
       "description": "Two full weeks of React ahead.",
       "readarticle": "https://medium.com/@jasminhedlund/career-week-just-kicked-off-at-technigo-and-with-that-weve-also-started-planning-and-building-752c430ecb82"
     },
@@ -32,6 +36,7 @@
       "id": "5",
       "name": "Freelance project - Wordpress",
       "image": "/assets/Freelance.webp",
+      "altText": "Image showing a desk with a laptop, pens, a cup of coffee and a calendar.",
       "description": "Lessons from a real-world WordPress project — SEO, accessibility & performance.",
       "readarticle": "https://medium.com/@jasminhedlund/first-freelance-project-605b49acb0d3"
     },
@@ -39,6 +44,7 @@
       "id": "6",
       "name": "Accessibility - 4 fixes",
       "image": "/assets/Accessibility.webp",
+      "altText": "An image showing a desk of a team or group working on accessibility with computers, headphones and coffee with snacks.",
       "description": "Accessibility, start simple and effective.",
       "readarticle": "https://medium.com/@jasminhedlund/accessibility-4-fixes-that-make-a-difference-a881743d99bc"
     },
@@ -46,6 +52,7 @@
       "id": "7",
       "name": "Bootcamp coming to an end",
       "image": "/assets/Journey.webp",
+      "altText": "An image with a text in white saying, the journey is on marking that the journey begins after the bootcamp.",
       "description": "Reflections, tips and tricks.",
       "readarticle": "https://medium.com/@jasminhedlund/six-months-a-thousand-commits-c264b73c4094"
     },
@@ -54,6 +61,7 @@
     "id": "8",
     "name": "Remote - what it takes to show up online",
     "image": "/assets/Remote.webp",
+    "altText": "An image representing remote work from home, a desk with at laptop on zoom with a cup of coffee",
     "description": "Reflections and thoughts around working remotley.",
     "readarticle": "https://medium.com/@jasminhedlund/remote-what-it-takes-to-show-up-online-bcf1170b6647"
   },
@@ -61,6 +69,7 @@
     "id": "9",
     "name": "Tips and Tricks on accessibility for entrepreneurs",
     "image": "/assets/Entrepren.webp",
+    "altText": "An image of a laptop, with a blu desk, a pink book that says goals goals goals and a cup of coffee",
     "description": "Tips and tricks on accessibility for entrepreneurs.",
     "readarticle": "https://medium.com/@jasminhedlund/website-accessibility-a-simple-guide-for-entrepreneurs-8968a78af4e6"
   }

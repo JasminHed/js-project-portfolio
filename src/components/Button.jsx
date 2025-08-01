@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const ButtonGroup = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ export const ButtonGroup = styled.div`
     flex-direction: row;
     gap: 8px;
   }
-`
+`;
 
 export const PrimaryButton = styled.a`
   padding: 6px 6px;
@@ -21,7 +21,6 @@ export const PrimaryButton = styled.a`
   border: none;
   width: fit-content;
 
-
   @media (min-width: 668px) {
     font-size: 14px;
     padding: 6px 8px;
@@ -31,7 +30,7 @@ export const PrimaryButton = styled.a`
     padding: 8px 10px;
     font-size: 16px;
   }
-`
+`;
 
 export const SecondaryButton = styled.a`
   padding: 6px 6px;
@@ -41,7 +40,6 @@ export const SecondaryButton = styled.a`
   border-radius: 4px;
   width: fit-content;
 
-
   @media (min-width: 668px) {
     padding: 6px 8px;
     font-size: 14px;
@@ -51,4 +49,4 @@ export const SecondaryButton = styled.a`
     padding: 8px 10px;
     font-size: 16px;
   }
-`
+`;
