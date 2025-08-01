@@ -1,8 +1,8 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
-import { ButtonGroup, PrimaryButton, SecondaryButton } from "./Button"
-import CardImage from "./Cardimage"
+import { ButtonGroup, PrimaryButton, SecondaryButton } from "./Button";
+import CardImage from "./Cardimage";
 
 const CardSection = styled.article`
   display: flex;
@@ -32,15 +32,18 @@ const CardSection = styled.article`
     @media (min-width: 1024px) {
     padding: 14px; 
     max-width: 90%;
-`
+`;
 
 const Card = ({ type, data }) => {
   return (
     <CardSection>
-    <CardImage src={data.image} alt={`Screenshot of ${data.name} project`} />
+      <CardImage
+        src={data.image}
+        alt={`Screenshot of ${data.name} project`}
         width={data.width}
-        height={data.height}     
-        loading="lazy" />
+        height={data.height}
+        loading="lazy"
+      />
       <h3>{data.name}</h3>
       <p>{data.description}</p>
 
@@ -60,8 +63,12 @@ const Card = ({ type, data }) => {
 
       {type === "project" && (
         <>
-          <p><strong>Languages:</strong> {data.languages.join(", ")}</p>
-          <p><strong>Features:</strong> {data.features.join(", ")}</p>
+          <p>
+            <strong>Languages:</strong> {data.languages.join(", ")}
+          </p>
+          <p>
+            <strong>Features:</strong> {data.features.join(", ")}
+          </p>
           <ButtonGroup>
             <PrimaryButton
               href={data.netlify}
@@ -81,7 +88,7 @@ const Card = ({ type, data }) => {
         </>
       )}
     </CardSection>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
