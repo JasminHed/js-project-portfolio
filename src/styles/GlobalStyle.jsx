@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   --color-text: #ffffff;
   --color-primary: #9A7FAC;        
   --color-secondary: #9A7FAC;  
-      
+  --bg-secondary: #121212;
   background: #121212;     
 }
 
