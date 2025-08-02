@@ -209,7 +209,7 @@
       "name": "Unga Allergiker Freelance Project",
       "image": "/assets/Ungaallergiker.png",
       "altText": "At summercamp, boats on the lake.",
-      "description": "Accessibility-focused review and improvement of a WordPress website for Unga Allergiker. Evaluated SEO, performance and accessibility using Lighthouse, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Color contrasts and certain image choices could not be adjusted due to the organization's visual identity and decisions made by the board.",
+      "description": "Accessibility-focused review and improvement of a WordPress website for Unga Allergiker. Evaluated SEO, performance and accessibility using Lighthouse, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Color contrasts and certain image choices could not be adjusted due to the organization's visual identity and decisions made by the board. We successfully achieved the green accessibility score in Lighthouse",
       "languages": [
         "CSS",
         "Javascript",
@@ -282,13 +282,13 @@
       "name": "Kodcentrum Freelance Project",
       "image": "/assets/Kodcentrum.png",
       "altText": "A young girl smiling.",
-      "description": "Accessibility-focused review and improvement of a Squarespace website for Kodcentrum. Evaluated SEO and accessibility using Lighthouse and Wave, with the main goal of reaching green scores on WCAG compliance and enhancing site structure.",
+      "description": "Accessibility-focused review and improvement of a Squarespace website for Kodcentrum. Evaluated SEO and accessibility using Lighthouse tools, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Some color contrast issues identified by Lighthouse could not be improved due to brand guidelines and will be reviewed internally. The accessibility improvements proved more challenging than anticipated within the Squarespace platform constraints. We successfully achieved the green accessibility score in Lighthouse",
       "languages": [
         "CSS",
         "Squarespace"
       ],
       "features": [
-        "Lighthouse & Wave audit & optimization",
+        "Lighthouse audit & optimization",
         "WCAG 2.1 level AA review",
         "Semantic HTML + ARIA roles",
         "SEO"
