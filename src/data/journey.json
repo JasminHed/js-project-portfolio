@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Diving into Tech",
       "image": "/assets/Tech-optimized.webp",
-      "altText": "Image of a laptop with calender and coffee, representing career transition into technology",
+      "altText": "Image of a laptop with calender and coffee",
       "description": "Why and how I found my way into Tech and what it has really meant.",
       "readarticle": "https://medium.com/@jasminhedlund/diving-into-tech-a7260565ca6d",
       "readarticleText": "Tech Story"
@@ -13,7 +13,7 @@
       "id": "2",
       "name": "Building DailyHealth",
       "image": "/assets/Project.webp",
-      "altText": "Image of a space with a computer, yoga mat, plant and sunlight coming in through the window.",
+      "altText": "Image of a computer, yoga mat, plant and sunlight coming in through the window.",
       "description": "A small personal app for mindful routines with a sprinkle of AI.",
       "readarticle": "https://medium.com/@jasminhedlund/my-first-real-project-idea-dailyhealth-72771545b8a9",
       "readarticleText": "DailyHealth App"
@@ -22,7 +22,7 @@
       "id": "3",
       "name": "Can you love code?",
       "image": "/assets/Balance-optimized.webp",
-      "altText": "Image showing a table with tea, a womans hand writing, A very contemplative mood.",
+      "altText": "Image showing a table with a cup of tea and a woman writing notes.",
       "description": "Sometimes I wonder — does coding have to be your whole life to count as a passion?",
       "readarticle": "https://medium.com/@jasminhedlund/can-you-love-code-and-still-love-other-things-yes-cb968a948938",
       "readarticleText": "Code Love"
@@ -31,7 +31,7 @@
       "id": "4",
       "name": "Career Week just kicked off at Technigo",
       "image": "/assets/Celebration-optimized.webp",
-      "altText": "Celebration scene with confetti and a ballon, representing bootcamp milestone achievement",
+      "altText": "Celebration scene with confetti and a ballon",
       "description": "Two full weeks of React ahead.",
       "readarticle": "https://medium.com/@jasminhedlund/career-week-just-kicked-off-at-technigo-and-with-that-weve-also-started-planning-and-building-752c430ecb82",
       "readarticleText": "Technigo Career Week"
@@ -49,7 +49,7 @@
       "id": "6",
       "name": "Accessibility - 4 fixes",
       "image": "/assets/Accessibility.webp",
-      "altText": "An image showing a desk of a team or group working on accessibility with computers, headphones and coffee with snacks.",
+      "altText": "An image showing a group working on accessibility with computers and coffee with snacks.",
       "description": "Accessibility, start simple and effective.",
       "readarticle": "https://medium.com/@jasminhedlund/accessibility-4-fixes-that-make-a-difference-a881743d99bc",
       "readarticleText": "Access Tips"
@@ -58,7 +58,7 @@
       "id": "7",
       "name": "Bootcamp coming to an end",
       "image": "/assets/Journey.webp",
-      "altText": "An image with a text in white saying, the journey is on marking that the journey begins after the bootcamp.",
+      "altText": "An image with a text, the journey is on.",
       "description": "Reflections, tips and tricks.",
       "readarticle": "https://medium.com/@jasminhedlund/six-months-a-thousand-commits-c264b73c4094",
       "readarticleText": "Bootcamp Ending"
@@ -67,7 +67,7 @@
       "id": "8",
       "name": "Remote - what it takes to show up online",
       "image": "/assets/Remote.webp",
-      "altText": "An image representing remote work from home, a desk with at laptop on zoom with a cup of coffee",
+      "altText": "A desk with at laptop live on zoom with a cup of coffee",
       "description": "Reflections and thoughts around working remotley.",
       "readarticle": "https://medium.com/@jasminhedlund/remote-what-it-takes-to-show-up-online-bcf1170b6647",
       "readarticleText": "Remote Tips"
@@ -76,7 +76,7 @@
       "id": "9",
       "name": "Tips and Tricks on accessibility for entrepreneurs",
       "image": "/assets/Entrepren.webp",
-      "altText": "An image of a laptop, with a blu desk, a pink book that says goals goals goals and a cup of coffee",
+      "altText": "An image of a laptop with a pink notebook that says goals.",
       "description": "Tips and tricks on accessibility for entrepreneurs.",
       "readarticle": "https://medium.com/@jasminhedlund/website-accessibility-a-simple-guide-for-entrepreneurs-8968a78af4e6",
       "readarticleText": "Access Guide"

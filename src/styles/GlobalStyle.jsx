@@ -12,9 +12,9 @@ const GlobalStyle = createGlobalStyle`
   }
 
   :root.dark {
-  --color-text: #f0f0f0;
-  --color-primary: #9b79b5;        
-  --color-secondary: #c6a9dc;      
+  --color-text: ##ffffff;
+  --color-primary: #c9a9dd;        
+  --color-secondary: #e0d0f0;      
   background: #121212;     
 }
 
