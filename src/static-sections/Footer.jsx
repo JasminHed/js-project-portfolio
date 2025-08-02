@@ -8,7 +8,7 @@ const FooterWrapper = styled.footer`
   padding: 64px 24px;
   align-items: center;
   text-align: center;
-  background-color: var(--color-primary);
+  background-color: var(--footer-bg);
   width: 100vw;
 
   @media (min-width: 668px) {

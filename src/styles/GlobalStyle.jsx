@@ -9,12 +9,14 @@ const GlobalStyle = createGlobalStyle`
     --color-secondary: #9A7FAC;
     --font-heading: 'Prata', serif;
     --font-body: 'Poppins', sans-serif;
+    --footer-bg: var(--color-primary)
   }
 
   :root.dark {
   --color-text: #ffffff;
-  --color-primary: #c9a9dd;        
-  --color-secondary: #e0d0f0;      
+  --color-primary: #9A7FAC;        
+  --color-secondary: #9A7FAC;  
+      
   background: #121212;     
 }
 

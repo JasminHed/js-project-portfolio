@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Business site",
       "image": "/assets/Business.png",
-      "altText": "Image of a yoga pose.",
+      "altText": "Screenshot of the hero image on business site.",
       "description": " Fully responsive business site for yoga and ayurveda with custom UI/UX. Built from scratch using semantic HTML and modular CSS.",
       "languages": [
         "HTML5",
