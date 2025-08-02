@@ -26,7 +26,7 @@
       "id": "2",
       "name": "Recipe App",
       "image": "/assets/Recipe-optimized.webp",
-      "altText": "Image showing different food recipes.",
+      "altText": "Screenshot of food  with recipes.",
       "description": "Interactive recipe app with real-time search, category filtering, and nutritional data integration via external API. Built from a set design.",
       "languages": [
         "HTML5",
@@ -48,7 +48,7 @@
       "id": "3",
       "name": "Weather App",
       "image": "assets/Weather-optimized.webp",
-      "altText": "Image showing a weather app with current weather in oslo, stockholm and gothenburg.",
+      "altText": "Weather app showing current weather in oslo, stockholm and gothenburg.",
       "description": "TypeScript-based weather app fetching real-time data for European capitals. Built with dynamic sorting",
       "languages": [
         "HTML5",
@@ -71,7 +71,7 @@
       "id": "4",
       "name": "Access Quiz",
       "image": "/assets/Access-optimized.webp",
-      "altText": "Image of a diverese group of friends with different dissabilities.",
+      "altText": "A diverese group of friends with different dissabilities.",
       "description": "Educational quiz focused on web accessibility. Emphasizes keyboard navigation, screen reader support, and WCAG compliance.",
       "languages": [
         "HTML5",
@@ -94,7 +94,7 @@
       "id": "5",
       "name": "Daily Health",
       "image": "/assets/Daily.png",
-      "altText": "Image of a computer, yoga mat, plant.",
+      "altText": "A computer, a yoga mat and a green plant on the floor.",
       "description": "Wellness app offering daily yoga and mindfulness tips based on user's selected mood. Custom design and AI experimentation. Ongoing project.",
       "languages": [
         "HTML5",
@@ -117,7 +117,7 @@
       "id": "6",
       "name": "Happy Thoughts",
       "image": "/assets/HappyThoughts.png",
-      "altText": "Image of happy thought posts with like buttons",
+      "altText": "Posts of happy thought posts with like buttons",
       "description": "Microblog app allowing users to post and like happy thoughts. Uses React and external API for message handling. Based on a set design.",
       "languages": [
         "HTML5",
@@ -139,7 +139,7 @@
       "id": "7",
       "name": "Movie App",
       "image": "/assets/Movieapp.png",
-      "altText": "Image displaying popular film posters in a grid layout",
+      "altText": "Posts of popular film posters in a grid layout",
       "description": "Movie browser built in React showing popular titles and detailed info via routing. Uses component-based architecture and styled-components.",
       "languages": [
         "HTML5",
@@ -161,7 +161,7 @@
       "id": "8",
       "name": "Todo App",
       "image": "/assets/Todo.png",
-      "altText": "An image of a reminder box with a motivational quote in it.", 
+      "altText": "A box with a motivational quote in it.", 
       "description": "Task management app with tagging and note-taking. Built for scalability with global state and modular structure.",
       "languages": [
         "HTML5",
@@ -183,7 +183,7 @@
       "id": "9",
       "name": "Jasmin´s Portfolio",
       "image": "/assets/Portfolio.png",
-      "altText": "Image of a purple box showing contact details to website.",
+      "altText": "Purple footer showing contact details to website.",
       "description": "Personal portfolio showcasing selected projects, skills, and contact form. Built from scratch with custom design and focus on performance, accessibility, and responsive design.",
       "languages": [
         "HTML5",
@@ -208,7 +208,7 @@
       "id": "10",
       "name": "Unga Allergiker Freelance Project",
       "image": "/assets/Ungaallergiker.png",
-      "altText": "Image from summercamp, boats on the lake.",
+      "altText": "At summercamp, boats on the lake.",
       "description": "Accessibility-focused review and improvement of a WordPress website for Unga Allergiker. Evaluated SEO, performance and accessibility using Lighthouse, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Color contrasts and certain image choices could not be adjusted due to the organization's visual identity and decisions made by the board.",
       "languages": [
         "CSS",
@@ -230,7 +230,7 @@
       "id": "11",
       "name": "Happy Thoughts - Fullstack",
       "image": "/assets/Fullstack.png",
-      "altText": " Image of posts showing happy thoughts.",
+      "altText": " Posts showing happy thoughts.",
       "description": "Fullstack React app with own Node.js/Express API and MongoDB. Includes user authentication, protected routes, and full CRUD.",
       "languages": [
         "HTML5",
@@ -256,7 +256,7 @@
       "id": "12",
       "name": "Intention Hub",
       "image": "/assets/Final.png",
-      "altText": "A pink box with an image of graphic flowers in the center.",
+      "altText": "A pink background with flowers.",
       "description": "Fullstack React app with Node.js/Express API, MongoDB, AI. Includes user authentication, protected routes, and full CRUD.",
       "languages": [
         "Styled components",
@@ -281,7 +281,7 @@
       "id": "13",
       "name": "Kodcentrum Freelance Project",
       "image": "/assets/Kodcentrum.png",
-      "altText": "Image of a young girl smiling.",
+      "altText": "A young girl smiling.",
       "description": "Accessibility-focused review and improvement of a Squarespace website for Kodcentrum. Evaluated SEO and accessibility using Lighthouse and Wave, with the main goal of reaching green scores on WCAG compliance and enhancing site structure.",
       "languages": [
         "CSS",

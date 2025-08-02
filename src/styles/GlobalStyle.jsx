@@ -14,8 +14,8 @@ const GlobalStyle = createGlobalStyle`
 
   :root.dark {
   --color-text: #ffffff;
-  --color-primary: #9A7FAC;        
-  --color-secondary: #9A7FAC;  
+  --color-primary: #4A2C5A;        
+  --color-secondary: #5D3A70;  
   --footer-bg: #121212;
   background: #121212;     
 }

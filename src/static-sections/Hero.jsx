@@ -108,7 +108,7 @@ const Hero = () => {
         </HeroContent>
         <ProfileImage
           src="/assets/profile-optimized.webp"
-          alt="Profile picture in round format,black and white, of a woman with dark long hair,white skin,brown eyes, somewhat round face with a smile, a black sweater with a background of grey curtains. It is a formal setting."
+          alt="Profile picture in black and white of Jasmin Hedlund smiling with dark hair and brown eyes."
           width="200"
           height="200"
           loading="lazy"

@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Diving into Tech",
       "image": "/assets/Tech-optimized.webp",
-      "altText": "Image of a laptop with calender and coffee",
+      "altText": "A laptop with calender and coffee",
       "description": "Why and how I found my way into Tech and what it has really meant.",
       "readarticle": "https://medium.com/@jasminhedlund/diving-into-tech-a7260565ca6d",
       "readarticleText": "Tech Story"
@@ -13,7 +13,7 @@
       "id": "2",
       "name": "Building DailyHealth",
       "image": "/assets/Project.webp",
-      "altText": "Image of a computer, yoga mat, plant and sunlight coming in through the window.",
+      "altText": "A computer, a yoga mat and a plant on the floor.",
       "description": "A small personal app for mindful routines with a sprinkle of AI.",
       "readarticle": "https://medium.com/@jasminhedlund/my-first-real-project-idea-dailyhealth-72771545b8a9",
       "readarticleText": "DailyHealth App"
@@ -22,7 +22,7 @@
       "id": "3",
       "name": "Can you love code?",
       "image": "/assets/Balance-optimized.webp",
-      "altText": "Image showing a table with a cup of tea and a woman writing notes.",
+      "altText": "A table with a cup of tea and a woman writing notes.",
       "description": "Sometimes I wonder — does coding have to be your whole life to count as a passion?",
       "readarticle": "https://medium.com/@jasminhedlund/can-you-love-code-and-still-love-other-things-yes-cb968a948938",
       "readarticleText": "Code Love"
@@ -40,7 +40,7 @@
       "id": "5",
       "name": "Freelance project - Wordpress",
       "image": "/assets/Freelance.webp",
-      "altText": "Image showing a desk with a laptop, pens, a cup of coffee and a calendar.",
+      "altText": "A desk with a laptop, pens, a cup of coffee and a calendar.",
       "description": "Lessons from a real-world WordPress project — SEO, accessibility & performance.",
       "readarticle": "https://medium.com/@jasminhedlund/first-freelance-project-605b49acb0d3",
       "readarticleText": "Freelance Story"
@@ -49,7 +49,7 @@
       "id": "6",
       "name": "Accessibility - 4 fixes",
       "image": "/assets/Accessibility.webp",
-      "altText": "An image showing a group working on accessibility with computers and coffee with snacks.",
+      "altText": "A group working on accessibility with computers and coffee with snacks.",
       "description": "Accessibility, start simple and effective.",
       "readarticle": "https://medium.com/@jasminhedlund/accessibility-4-fixes-that-make-a-difference-a881743d99bc",
       "readarticleText": "Access Tips"
@@ -58,7 +58,7 @@
       "id": "7",
       "name": "Bootcamp coming to an end",
       "image": "/assets/Journey.webp",
-      "altText": "An image with a text, the journey is on.",
+      "altText": "A black background with white text saying the journey is on.",
       "description": "Reflections, tips and tricks.",
       "readarticle": "https://medium.com/@jasminhedlund/six-months-a-thousand-commits-c264b73c4094",
       "readarticleText": "Bootcamp Ending"
@@ -76,7 +76,7 @@
       "id": "9",
       "name": "Tips and Tricks on accessibility for entrepreneurs",
       "image": "/assets/Entrepren.webp",
-      "altText": "An image of a laptop with a pink notebook that says goals.",
+      "altText": "A laptop with a pink notebook that says goals.",
       "description": "Tips and tricks on accessibility for entrepreneurs.",
       "readarticle": "https://medium.com/@jasminhedlund/website-accessibility-a-simple-guide-for-entrepreneurs-8968a78af4e6",
       "readarticleText": "Access Guide"
