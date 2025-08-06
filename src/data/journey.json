@@ -80,6 +80,16 @@
       "description": "Tips and tricks on accessibility for entrepreneurs.",
       "readarticle": "https://medium.com/@jasminhedlund/website-accessibility-a-simple-guide-for-entrepreneurs-8968a78af4e6",
       "readarticleText": "Access Guide"
+    },
+    {
+      "id": "10",
+      "name": "Freelance project - Squarespace",
+      "image": "/assets/Squarespace.webp",
+      "altText": "A laptop with code on the screen and books on the side of the laptop.",
+      "description": "Accessibility and SEO on a Squarespace webpage.",
+      "readarticle": "https://medium.com/@jasminhedlund/freelance-project-squarespace-4a161d9b792e",
+      "readarticleText": "Freelance project"
     }
+    
   ]
 }
