@@ -282,10 +282,11 @@
       "name": "Kodcentrum Freelance Project",
       "image": "/assets/Kodcentrum.png",
       "altText": "A young girl smiling.",
-      "description": "Accessibility-focused review and improvement of a Squarespace website for Kodcentrum. Evaluated SEO and accessibility using Lighthouse tools, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Some color contrast issues identified by Lighthouse could not be improved due to brand guidelines and will be reviewed internally. The accessibility improvements proved more challenging than anticipated within the Squarespace platform constraints. We successfully achieved the green accessibility score in Lighthouse",
+      "description": "Accessibility-focused review and improvement of a Squarespace website for Kodcentrum. Evaluated SEO and accessibility using Lighthouse tools, with the main goal of reaching green scores on WCAG compliance and enhancing site structure. Some color contrast issues identified by Lighthouse could not be improved due to brand guidelines and will be reviewed internally. This also goes for descriptive and unique link names. The accessibility improvements proved more challenging than anticipated within the Squarespace platform constraints. We successfully achieved the green accessibility score in Lighthouse",
       "languages": [
         "CSS",
-        "Squarespace"
+        "Squarespace",
+        "Javascript"
       ],
       "features": [
         "Lighthouse audit & optimization",
