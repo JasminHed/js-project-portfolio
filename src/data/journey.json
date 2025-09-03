@@ -89,7 +89,17 @@
       "description": "Accessibility and SEO on a Squarespace webpage.",
       "readarticle": "https://medium.com/@jasminhedlund/freelance-project-squarespace-4a161d9b792e",
       "readarticleText": "Freelance project"
+    },
+    {
+      "id": "11",
+      "name": "Building with AI - Lovable",
+      "image": "/assets/AI.webp",
+      "altText": "A red heart.",
+      "description": "Building with AI to understand how it works in practice, where AI can help and where it might fall short.",
+      "readarticle": "https://medium.com/@jasminhedlund/building-with-ai-lovable-733fda6b7918",
+      "readarticleText": "Freelance project"
     }
+
     
   ]
 }

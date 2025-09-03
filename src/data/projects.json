@@ -298,7 +298,28 @@
       "github": "https://www.canva.com/design/DAGsAYNybxc/mTNOmu1KmAkmK4a6kmZgSQ/edit?utm_content=DAGsAYNybxc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
       "netlifyText": "Kodcentrum",
       "githubText": "Canva Presentation"
+    },
+    {
+      "id": "14",
+      "name": "Building with AI - Lovable",
+      "image": "/assets/AI.webp",
+      "altText": "A red heart.",
+      "description": "As a junior developer, I’m constantly hearing both the excitement and the warnings around AI. Instead of just listening, I wanted to test it out to be able to form an opinion and see what role AI might have in the future.",
+      "languages": [
+        "React",
+        "Tailwind",
+        "Typescript"
+      ],
+      "features": [
+        "AI generated",
+        "Prompting"
+      ],
+      "netlify": "bootcampbuddy.lovable.app",
+      "github": "https://github.com/JasminHed/learn-and-quest",
+      "netlifyText": "BootcampBuddy",
+      "githubText": "Github"
     }
+  
   
   ]
 }
