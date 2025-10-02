@@ -53,8 +53,8 @@ const Hero = () => {
           <p>
             Hello there, I am a Web developer (frontend focus) with an
             entrepreneurial mindset, passionate about accessibility, health and
-            meaningful digital solutions — especially within the nonprofit
-            sector, education and social impact.
+            meaningful digital solutions — especially within social impact
+            companies.
           </p>
 
           <p>
@@ -62,16 +62,18 @@ const Hero = () => {
             within the non-profit sector. In these roles, I led projects,
             improved workflows, digital communication and implemented digital
             tools. I also created clear documentation such as guides and
-            manuals.
+            manuals. I also freelance within yoga and ayurveda since 2015.
           </p>
 
-          <p>In parallel, I freelance in health, yoga and ayurveda.</p>
+          <p>
+            Now I combine communication, digital workflows, people and client
+            focus, structure and organisation as well as hands-on coding with
+            content work, accessibility and project management
+          </p>
 
           <p>
-            Understanding human behavior is at the core of how I approach
-            development. My time in people-focused roles has taught me to adapt
-            quickly and stay proactive. I am teachable, enthusiastic and
-            comfortable taking initiative to move things forward.
+            I am teachable, enthusiastic and comfortable taking initiative to
+            move things forward.
           </p>
 
           <p>
