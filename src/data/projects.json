@@ -272,7 +272,7 @@
         "React Router",
         "RESTful API (CRUD: GET, POST, PATCH, DELETE)"
       ],
-      "netlify": "https://finalprojectjasmin.netlify.app/",
+      "netlify": "https://intentionhub.netlify.app/",
       "github": "https://github.com/JasminHed/project-final",
       "netlifyText": "Intention Hub",
       "githubText": "Intention Hub Code"
@@ -314,7 +314,7 @@
         "AI generated",
         "Prompting"
       ],
-      "netlify": "bootcampbuddy.lovable.app",
+      "netlify": "https://bootcampbuddy.lovable.app/",
       "github": "https://github.com/JasminHed/learn-and-quest",
       "netlifyText": "BootcampBuddy",
       "githubText": "Github"
