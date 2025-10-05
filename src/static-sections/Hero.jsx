@@ -51,15 +51,28 @@ const Hero = () => {
           <h1>Portfolio of Jasmin Hedlund</h1>
 
           <p>
-            Hello there, I am a Web Developer with an experience and passion for accessibility. Looking for opportunities remote or hybrid within web development, focus on frontend, ideally in social impact companies.
+            Hello there, I am a Web Developer with experience and passion for
+            accessibility. Looking for opportunities remote or hybrid within
+            development, focus on frontend but willing and curious to learn
+            backend as well.
           </p>
 
           <p>
-          With a background in HR, project management and digital communication, I have spent over a decade leading projects, improving workflows and creating clear documentation and user guides. Alongside this, I have worked as a yoga and wellness freelancer for more than 13 years, an experience that has strengthened my adaptability, creativity and entrepreneurial mindset.
+            With a background mainly in HR and recruitment, I have spent over a
+            decade leading projects, working and supporting people, improving
+            workflows and creating clear documentation and user guides.
+            Alongside this, I have worked as a yoga and wellness freelancer for
+            more than 13 years, an experience that has strengthened my
+            adaptability, creativity and entrepreneurial mindset.
           </p>
 
           <p>
-          In recent years, I’ve shifted my focus toward web development and accessibility — building, designing and optimizing websites and digital tools with attention to both user experience and inclusion. Today, I combine my technical skills (HTML, CSS, JavaScript, React, accessibility, CMS) with my experience in people-centered work to create digital solutions that are both functional and human-centered.
+            In recent years, I’ve shifted my focus toward web development and
+            accessibility — building, designing and optimizing websites and
+            digital tools with attention to both user experience and inclusion.
+            Today, I combine my technical skills with my experience in
+            people-centered work to create digital solutions that are both
+            functional and human first.
           </p>
 
           <p>
@@ -69,7 +82,7 @@ const Hero = () => {
 
           <p>
             I am drawn to web development because it combines practicality with
-            creativity and is a continous journey of learning. 
+            creativity and is a continous journey of learning.
           </p>
 
           <SocialIcons>
