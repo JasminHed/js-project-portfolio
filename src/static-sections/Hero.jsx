@@ -51,24 +51,15 @@ const Hero = () => {
           <h1>Portfolio of Jasmin Hedlund</h1>
 
           <p>
-            Hello there, I am a Web developer (frontend focus) with an
-            entrepreneurial mindset, passionate about accessibility, health and
-            meaningful digital solutions — especially within social impact
-            companies.
+            Hello there, I am a Web Developer with an experience and passion for accessibility. Looking for opportunities remote or hybrid within web development, focus on frontend, ideally in social impact companies.
           </p>
 
           <p>
-            My background is in HR, administration and recruitment — primarily
-            within the non-profit sector. In these roles, I led projects,
-            improved workflows, digital communication and implemented digital
-            tools. I also created clear documentation such as guides and
-            manuals. I also freelance within yoga and ayurveda since 2015.
+          With a background in HR, project management and digital communication, I have spent over a decade leading projects, improving workflows and creating clear documentation and user guides. Alongside this, I have worked as a yoga and wellness freelancer for more than 13 years, an experience that has strengthened my adaptability, creativity and entrepreneurial mindset.
           </p>
 
           <p>
-            Now I combine communication, digital workflows, people and client
-            focus, structure and organisation as well as hands-on coding with
-            content work, accessibility and project management
+          In recent years, I’ve shifted my focus toward web development and accessibility — building, designing and optimizing websites and digital tools with attention to both user experience and inclusion. Today, I combine my technical skills (HTML, CSS, JavaScript, React, accessibility, CMS) with my experience in people-centered work to create digital solutions that are both functional and human-centered.
           </p>
 
           <p>
@@ -78,7 +69,7 @@ const Hero = () => {
 
           <p>
             I am drawn to web development because it combines practicality with
-            creativity.
+            creativity and is a continous journey of learning. 
           </p>
 
           <SocialIcons>
